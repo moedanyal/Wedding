@@ -421,7 +421,7 @@ background-position: right;
 background-size:contain ;
 background-repeat: no-repeat;
 background-position-x: -350px;
-background-position-y: -50px;
+background-position-y: -00px;
 }
 .mehndi-invite{
 font-family: Pinyon script;  
@@ -431,6 +431,7 @@ text-align: center;
 margin-top: 15px;
 /* text-decoration: underline; */
 letter-spacing: 6px;
+font-weight: 400;
 }
 .mehndi-list li{
  color: rgb(81, 60, 8);   
@@ -470,12 +471,12 @@ margin: auto;
     margin: 10px auto;
     background-color:#b8f76663 ;
     min-height: 600px;
-    background-image: url(images/wedbg.png);
+    background-image: url(images/ganesh.png);
     background-position: right;
     background-size:contain ;
     background-repeat: no-repeat;
-    background-position-x: -350px;
-    background-position-y: -50px;
+    background-position-x: -100px;
+    background-position-y: -30px;
     }
     .wedding-invite{
       font-family: 'Pinyon Script', cursive; 
@@ -485,6 +486,7 @@ margin: auto;
     margin-top: 15px;
     /* text-decoration: underline; */
     letter-spacing: 10px;
+    font-weight: 400;
     }
     .wedding-list li{
      color: rgb(81, 60, 8);   
@@ -520,12 +522,12 @@ margin: auto;
     margin: 10px auto;
     background-color:rgb(142,185,54) ;
     min-height: 600px;
-    background-image: url(images/wedbg.png);
+    background-image: url(images/functionsbg.png);
     background-position: left;
     background-size:contain ;
     background-repeat: no-repeat;
-    background-position-x: -350px;
-    background-position-y: -50px;
+    background-position-x: -90px;
+    background-position-y: 00px;
     }
     .reception-invite{
       font-family: 'Pinyon Script', cursive;
@@ -535,6 +537,7 @@ margin: auto;
     margin-top: 15px;
     /* text-decoration: underline; */
     letter-spacing: 10px;
+    font-weight: 400;
     }
     .reception-list li{
      color: rgb(9, 86,2 );   
@@ -549,6 +552,7 @@ margin: auto;
     animation-duration: 5s;
     animation-delay: 8s;
     animation-fill-mode: backwards;
+    /* filter: brightness(1.75); */
     }
     .google{
       font-size:small ;  
@@ -629,13 +633,17 @@ display: flex;
 flex-direction: row;
 }
   .info{
-font-family: 'Pinyon Script';    
+font-family: 'Ovo';    
 color: white;
 display: inline-block;
 margin: auto;
+padding: 10px ;
 background-color: cadetblue;
 text-align: center;
 font-size: 2rem;
+  }
+  .moesgrafix{
+    font-family:'Pinyon script';
   }
 @media  only screen and ( max-width:600px) {
 body{
