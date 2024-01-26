@@ -31,8 +31,8 @@ position: relative;
 }
 .main-nav{
 position: fixed; 
-top: 5%;
-left: 5%;
+top: 2%;
+left: 2%;
 }
 .main-nav a{
   text-decoration: none;
@@ -45,14 +45,14 @@ padding-right: 50px;
 padding-left: 50px;
 }
 .main-nav li{
-margin: 2px;
+ margin: 2px; 
 color: rgb(210, 8, 8); 
 background-color: rgba(208, 230, 14, 0.405);
 border-radius: 15px;
-padding: 10px;
+padding: 2px;
 text-align: center;
 list-style: none;
-font-size: 2rem;
+font-size: 1.5rem;
 /* float: right; */
 }
 /* .sub-list {
@@ -414,7 +414,7 @@ flex-direction: column;
 position: relative;
 width:50%;
 margin: 10px auto;
-background-color:#24782563 ;
+background-color:rgb(142,185,54) ;
 min-height: 600px;
 background-image: url(images/wedbg.png);
 background-position: right;
@@ -520,7 +520,7 @@ margin: auto;
     position: relative;
     width:50%;
     margin: 10px auto;
-    background-color:rgb(142,185,54) ;
+    background-color: rgba(148, 41, 35, 1);
     min-height: 600px;
     background-image: url(images/functionsbg.png);
     background-position: left;
@@ -531,7 +531,7 @@ margin: auto;
     }
     .reception-invite{
       font-family: 'Pinyon Script', cursive;
-    color: rgb(9, 86, 2);
+    color: rgb(227, 170, 27);
     font-size: 3rem;
     text-align: center;
     margin-top: 15px;
@@ -540,7 +540,7 @@ margin: auto;
     font-weight: 400;
     }
     .reception-list li{
-     color: rgb(9, 86,2 );   
+      color: rgb(227, 170, 27);
      font-family: 'Ovo';
     list-style: none;
     text-align: right;
@@ -563,7 +563,7 @@ margin: auto;
     max-width: 800px;
     text-align: center;
     font-size: 24px;
-    color: rgb(9, 86, 2);  
+    color: rgb(227, 170, 27);
     margin: auto;
         }
   .part-five{
@@ -628,23 +628,226 @@ color: black;
   .main-footer{
 min-height: 300px;
 width: 100%;
-background-color: gray;  
+background-color: rgb(239, 214, 89); 
 display: flex;
 flex-direction: row;
 }
   .info{
 font-family: 'Ovo';    
-color: white;
+color: rgb(1, 85, 8);
 display: inline-block;
 margin: auto;
 padding: 10px ;
-background-color: cadetblue;
+/* background-color: cadetblue; */
 text-align: center;
-font-size: 2rem;
+font-size: 1.5rem;
   }
   .moesgrafix{
     font-family:'Pinyon script';
   }
+
+/* Media responsive */
+
+
+  @media  only screen and ( max-width:1150px){
+    .main-heading{
+      font-family: Pinyon Script;
+    background-color: rgba(222, 218, 154, 0.422);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+     top: 50%; 
+    transform: translate(0%,-50%);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(64, 99, 37);
+    font-size: 2.5rem;
+    letter-spacing: 12px;
+      }
+      .said-yes{
+        width: 100%;
+        background-color: rgba(148, 41, 35, 0.946);
+        height: 300px;
+        padding: 30px;
+        background-image: url(images/wedbg.png);
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-position-x: 1000px;
+        }
+        .btn:link,
+        .btn:visited{
+      /* text-transform: uppercase; */
+      background-color: white; 
+      text-decoration: none;
+      font-size: 1.5rem;
+      border-radius: 50px; 
+      padding: 15px 40px; 
+      display:inline-block;
+      position: absolute;
+      top: 30%;
+      left: 35%;
+      transition: all .22s;
+      letter-spacing:6px;
+       }
+       .dots {
+        position: absolute;
+        bottom: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+      }
+       .part-two{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width:50%;
+        margin: 10px auto;
+        background-color:#24782563 ;
+        height: 300px;
+        background-image: url(images/wedbg.png);
+        background-position: right;
+        background-size:contain ;
+        background-repeat: no-repeat;
+        background-position-x: -350px;
+        background-position-y: -00px;
+        }
+        .mehndi-list li{
+          color: rgb(81, 60, 8);   
+          font-family: 'Ovo';
+         list-style: none;
+         text-align: right;
+         margin-top: 20px;
+         margin-right:20px;
+         font-size: 1rem;
+         margin-bottom: 45px;
+         animation-name: hitched;
+         animation-duration: 5s;
+         animation-delay: 4s;
+         animation-fill-mode: backwards;
+         }
+         .mehndi-detail{
+          font-family: 'Ovo';  
+        max-width: 800px;
+        text-align: center;
+        font-size: 1rem;
+        color: rgb(81, 60, 8);  
+        margin: auto;
+        
+        }
+        /*    The Wedding     */
+.part-three{
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width:50%;
+  margin: 10px auto;
+  background-color:#b8f76663 ;
+  height: 300px;
+  background-image: url(images/ganesh.png);
+  background-position: right;
+  background-size:contain ;
+  background-repeat: no-repeat;
+  background-position-x: -250px;
+  background-position-y: -30px;
+  }
+  .wedding-invite{
+    font-family: 'Pinyon Script', cursive; 
+  color: rgb(83, 104, 34);
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 15px;
+  /* text-decoration: underline; */
+  letter-spacing: 10px;
+  font-weight: 400;
+  }
+  .wedding-list li{
+   color: rgb(81, 60, 8);   
+   font-family: 'Ovo';
+  list-style: none;
+  text-align: right;
+  margin-top: 20px;
+  margin-right:20px;
+  font-size: 1rem;
+  margin-bottom: 40px;
+  animation-name: hitched;
+  animation-duration: 5s;
+  animation-delay: 6s;
+  animation-fill-mode: backwards;
+  }
+ 
+  .wedding-detail{
+    font-family: 'Ovo';
+  max-width: 900px;
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(81, 60, 8);  
+  margin: auto;
+    }
+
+      /*    The Reception     */
+.part-four{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width:50%;
+  margin: 10px auto;
+  background-color:rgb(142,185,54) ;
+  height: 300px;
+  background-image: url(images/functionsbg.png);
+  background-position: left;
+  background-size:contain ;
+  background-repeat: no-repeat;
+  background-position-x: -290px;
+  background-position-y: 00px;
+  }
+  .reception-invite{
+    font-family: 'Pinyon Script', cursive;
+  color: rgb(9, 86, 2);
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 15px;
+  /* text-decoration: underline; */
+  letter-spacing: 10px;
+  font-weight: 400;
+  }
+  .reception-list li{
+   color: rgb(9, 86,2 );   
+   font-family: 'Ovo';
+  list-style: none;
+  text-align: right;
+  margin-top: 20px;
+  margin-right:20px;
+  font-size: 1rem;
+  margin-bottom: 45px;
+  animation-name: hitched;
+  animation-duration: 5s;
+  animation-delay: 8s;
+  animation-fill-mode: backwards;
+  /* filter: brightness(1.75); */
+  }
+  .google{
+    font-size:small ;  
+  }
+  .reception-detail{
+    font-family: 'Ovo'
+    ;
+  max-width: 800px;
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(9, 86, 2);  
+  margin: auto;
+      }
+
+  }
+
+
+
+
 @media  only screen and ( max-width:600px) {
 body{
 font-size: 50%;
@@ -654,3 +857,4 @@ background-color: purple
   font-size: 1rem;
 }
 
+}

@@ -9,6 +9,8 @@ body{
  z-index: -12;
  background-image: url(wedbg.png);
  background-position: top;
+ font-family: 'Ovo', serif;
+  font-family: 'Pinyon Script', cursive;
 }
 /* .main{
 position: relative;
@@ -21,13 +23,11 @@ height: 400px;
 border-bottom: 1px solid black; 
 font-family:'Pinyon Script', cursive;
 } */
- .main-nav{
-  width: 25%;
-  position: absolute;
-  top: 12%;
-  left: 6%;  
-  z-index: 1;
-    }
+.main-nav{
+  position: fixed; 
+  top: 2%;
+  left: 2%;
+  }
     .main-nav a{
       text-decoration: none;
       color: red;  
@@ -39,17 +39,16 @@ font-family:'Pinyon Script', cursive;
     padding-left: 50px;
     }
     .main-nav li{
-    font-family:'Pinyon Script', cursive;
-    margin: 2px;
-    color: rgb(210, 8, 8); 
-    background-color: rgba(208, 230, 14, 0.405);
-    border-radius: 15px;
-    padding: 10px;
-    text-align: center;
-    list-style: none;
-    font-size: 2rem;
-    /* float: right; */
-    }
+      margin: 2px; 
+     color: rgb(210, 8, 8); 
+     background-color: rgba(208, 230, 14, 0.405);
+     border-radius: 15px;
+     padding: 2px;
+     text-align: center;
+     list-style: none;
+     font-size: 1.5rem;
+     /* float: right; */
+     }
     /* .sub-list {
     display:none;
     }
@@ -84,7 +83,7 @@ font-family: 'Ovo', serif;
 font-weight: 400;
 font-size: 1.5rem;
 z-index: 100;
-background-color: rgba(255, 255, 255, 0.727); 
+/* background-color: rgba(255, 255, 255, 0.448);  */
 /* border-top: 1px solid black; */
 overflow: hidden;
 z-index: 10;
@@ -129,6 +128,9 @@ width: 40%;
     text-align: center;
     font-size: 2rem;
           } 
+          .moesgrafix{
+            font-family:'Pinyon script';
+          }
 
 @media screen and (max-width:1100px) {
     .main-nav li{
