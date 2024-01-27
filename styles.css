@@ -30,7 +30,7 @@ flex-direction: column;
 position: relative;
 }
 .main-nav{
-position: fixed; 
+position: absolute; 
 top: 2%;
 left: 2%;
 }
@@ -379,11 +379,11 @@ width:80%;
 padding-left: 30px;
 margin: 20px auto;
 background-color: #fffee0; 
-height: 400px;
-background-image: url(images/mehndi7.jpg); 
+min-height: 500px;
+/* background-image: url(images/mehndi7.jpg); 
 background-position: right;
 background-size:contain ;
-background-repeat: no-repeat;
+background-repeat: no-repeat; */
 /* background-position-x: 1680px;
 background-position-y: -00px; */
 }
@@ -396,39 +396,53 @@ margin-top: 15px;
 /* text-decoration: underline; */
 letter-spacing: 6px;
 font-weight: 400;
-padding-left: 100px;
+/* padding-left: 100px; */
+margin-bottom: 40px;
 }
-/* .mehndi-list li{
-  color: #fbece8;  
+.sub-head{
+font-family: 'Ovo';
+font-size: 1rem;
+
+}
+.meh-img{
+  display: flex;
+  position: absolute;
+  top: 7%;
+  right:0;
+  justify-content: end;
+width: 100%;
+ 
+ } 
+.mehndi-list li{
+  color:  #004721; 
  font-family: 'Ovo';
 list-style: none;
 text-align: left;
 margin-top: 10px;
 margin-right:20px;
-font-size: 1.5rem;
+font-size: 1rem;
 margin-bottom: 10px;
 animation-name: hitched;
 animation-duration: 5s;
 animation-delay: 4s;
 animation-fill-mode: backwards;
-} */
+}
 .google a{
 text-decoration: none;
 color: rgb(83,104,34);
 }
-/* .mehndi-detail{
-  font-family: 'Ovo';  
+ .mehndi-detail{
+ font-family: 'Ovo';  
 max-width: 800px;
-text-align: center;
+text-align: left;
 font-size: 1.5 rem;
-color: #fbece8; 
-margin: auto;
+color:  #004721;
+/* margin: auto; */
 
-} */
+} 
 
 /*    The Wedding     */
 .part-three{
-
   display: flex;
   flex-direction: column;
   position: relative;
@@ -436,12 +450,14 @@ margin: auto;
   padding-left: 30px;
   margin: 20px auto;
   background-color: #fffee0; 
-  height: 400px;
-  background-image: url(images/rings.jpg); 
-  /* background-position: ; */
+  min-height: 500px;
+   /* background-image: url(images/rings.jpg);  
+  background-position:left ; 
   background-size:contain ;
-  background-repeat: no-repeat;
-  padding-bottom: -20px;
+  background-repeat: no-repeat; */
+  /* background-position-x: -80%;
+  background-position-y:-50px ; */
+  /* padding-bottom: -20px; */
     }
     .wedding-invite{
       font-family: 'Pinyon Script', cursive; 
@@ -452,32 +468,42 @@ margin: auto;
     /* text-decoration: underline; */
     letter-spacing: 10px;
     font-weight: 400;
-    padding-right: 100px;
+     padding-right: 15px; 
     }
-    /* .wedding-list li{
-      color: #fbece8;  
+     .wed-img{
+      display: flex;
+      position: absolute;
+      top: 7%;
+      left: 0;
+      width: 100%;
+     
+     } 
+    .wedding-list li{
+      color:  #004721; 
     font-family: 'Ovo';
 list-style: none;
 text-align: right;
 margin-top: 10px;
 margin-right:20px;
-font-size: 1.5rem;
+font-size: 1rem;
 margin-bottom: 10px;
 animation-name: hitched;
 animation-duration: 5s;
 animation-delay: 4s;
 animation-fill-mode: backwards;
-    } */
+    } 
    
-    /* .wedding-detail{
+   .wedding-detail{
       font-family: 'Ovo';
-    max-width: 1000px;
-    text-align: center;
-    font-size: 1.5rem;
-    color: #fbece8;
-    margin: auto;
-        
-    } */
+    max-width: 600px;
+    text-align: right;
+    font-size: 1rem;
+    color:  #004721;
+    /* margin: auto;  */
+    align-content:end;
+    float: right;    
+    padding-right: 20px;
+    }
 
     /*    The Reception     */
 .part-four{
@@ -488,11 +514,11 @@ animation-fill-mode: backwards;
   padding-left: 30px;
   margin: 20px auto;
   background-color: #fffee0; 
-  height: 400px;
-  background-image: url(images/fooljhadi.jpg); 
+  min-height: 500px;
+  /* background-image: url(images/fooljhadi.jpg); 
   background-position: right;
   background-size:contain ;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
     }
     .reception-invite{
       font-family: 'Pinyon Script', cursive;
@@ -503,34 +529,42 @@ animation-fill-mode: backwards;
     /* text-decoration: underline; */
     letter-spacing: 10px;
     font-weight: 400;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     }
-    /* .reception-list li{
-      color: #fbece8;
+    .rec-img{
+      display: flex;
+      position: absolute;
+      top: 7%; 
+       right:0; 
+      justify-content: end;
+     width: 100%; 
+     
+     } 
+    .reception-list li{
+      color:  #004721; 
       font-family: 'Ovo';
-      list-style: none;
-      text-align: left;
-      margin-top: -30px;
-      margin-right:20px;
-      font-size: 1.5rem;
-      margin-bottom: 40px;
-      animation-name: hitched;
-      animation-duration: 5s;
-      animation-delay: 4s;
-      animation-fill-mode: backwards;
-    } */
+     list-style: none;
+     text-align: left;
+     margin-top: 20px;
+     margin-right:20px;
+     font-size: 1rem;
+     margin-bottom: 10px;
+     animation-name: hitched;
+     animation-duration: 5s;
+     animation-delay: 4s;
+     animation-fill-mode: backwards;
+    } 
     .google{
       font-size:small ;  
     }
-    /* .reception-detail{
+    .reception-detail{
       font-family: 'Ovo';
     max-width: 800px;
-    text-align: center;
-    font-size: 1.5rem;
-    color: #fbece8;
-    margin:  auto ;
-
-        } */
+    text-align: left;
+    font-size: 1rem;
+    color:  #004721;
+    /* margin:  auto ; */
+        } 
   .part-five{
 display: flex;
 flex-direction: row;
