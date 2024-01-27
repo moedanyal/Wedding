@@ -36,7 +36,7 @@ left: 2%;
 }
 .main-nav a{
   text-decoration: none;
-  color: rgb(255, 255, 255);  
+  color:  #004721;
 }
 .main-nav a:hover {
 /* background-color: rgb(128, 156, 141);
@@ -53,6 +53,7 @@ padding: 2px;
 text-align: center;
 list-style: none;
 font-size: 1.5rem;
+font-weight: 400;
 /* float: right; */
 }
 /* .sub-list {
@@ -82,7 +83,7 @@ transform: translate(0%,-50%);
 align-items: center;
 text-align: center;
 justify-content: center;
-color: rgb(64, 99, 37);
+color:  #004721;
 font-size: 4.5rem;
 letter-spacing: 12px;
 
@@ -144,7 +145,7 @@ letter-spacing: 25px;
 margin-bottom: 50px;
 font-size: 3.5rem;
 font-weight: 200;
-color: rgb(64, 99, 37);
+color:  #004721;
 opacity: 1;
 filter: drop-shadow(2px,2px gray);
 animation-name: saidyes;
@@ -155,7 +156,7 @@ max-width: 1000px;
 margin: auto;
 text-align: center;
 font-size: 22px;
-color: rgb(64, 99, 37);
+color:  #004721;
 filter: drop-shadow(2px,2px gray);
 }
 .yes-para{
@@ -316,15 +317,16 @@ font-family: Ovo;
   }
   /* Slide show ends here*/
 .test{
-  background-color: #f6f6f6; 
-  
-min-height: 200px;
+  margin-top: 40px;
+/* background-color: #f6f6f6;  */
+min-height: 300px;
 position: relative;
-background-image: url(images/functionsbg.png);
-background-position: right;
+background-image: url(images/pinkgift3.jpeg);
+background-position: left;
 background-size:cover;
 background-repeat: no-repeat;
 /* z-index: -5; */
+
 }
 
   .btn:link,
@@ -341,7 +343,7 @@ top: 30%;
 left: 40%;
 transition: all .22s;
 letter-spacing:6px;
-
+color:  #004721;
 }
 .btn:hover{
 transform:translateY(-3px);
@@ -368,51 +370,7 @@ transition: all .4s;
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
-/* .tab-one{
-min-width: 150px;
-height: 40px;
-padding: 10px;
-background-color:#24782563;
-border-radius: 0px 30px 30px 0px;
-z-index: 1;
-right: -150px;
-margin-top: 25px;
-color: rgb(61, 61, 61);
-font-weight: bold;
-position: absolute;
-animation-name: names;
-    animation-duration: 6s;
-}
-.tab-two{
-    min-width: 150px;
-    height: 40px;
-    padding: 10px;
-    background-color:#cfeaac63;
-    border-radius: 0px 30px 30px 0px;
-    z-index: 1;
-    right: -150px;
-    margin-top: 25px;
-    color: rgb(61, 61, 61);
-    font-weight: bold;
-    position: absolute;
-    animation-name: names;
-    animation-duration: 8s;
-    }
-.tab-three{
-        min-width: 150px;
-        height: 40px;
-        padding: 10px;
-              background-color:#829deecd;
-        border-radius: 0px 30px 30px 0px;
-        z-index: 1;
-        right: -150px;
-        margin-top: 25px;
-        color: rgb(61, 61, 61);
-        font-weight: bold;
-        position: absolute;
-        animation-name: names;
-    animation-duration: 10s;
-        }     */
+
 .part-two{
 display: flex;
 flex-direction: column;
@@ -431,7 +389,7 @@ background-position-y: -00px; */
 }
 .mehndi-invite{
 font-family: Pinyon script;  
-color: #566e2d;
+color:  #004721;
 font-size: 3rem;
 text-align: center;
 margin-top: 15px;
@@ -486,7 +444,7 @@ margin: auto;
     }
     .wedding-invite{
       font-family: 'Pinyon Script', cursive; 
-      color: #566e2d;
+      color:  #004721;
     font-size: 3rem;
     text-align: center;
     margin-top: 15px;
@@ -536,7 +494,7 @@ animation-fill-mode: backwards;
     }
     .reception-invite{
       font-family: 'Pinyon Script', cursive;
-      color: #566e2d;
+      color:  #004721;
     font-size: 3rem;
     text-align: center;
     margin-top: 15px;
@@ -612,9 +570,9 @@ color: black;
   } 
   .wedding-rsvp a{
     text-decoration: none;
-    color: rgb(78, 80, 78);
+    color:  #004721;
     font-size: xx-large;
-    font-weight: bold;
+    font-weight: 400;
   }         
 /* .reception-rsvp{
     display: flex;
@@ -625,9 +583,9 @@ color: black;
   } */
   .reception-rsvp a{
     text-decoration: none;
-    color: rgb(78, 80, 78);
+    color: rgb(9, 225, 9);
     font-size: large;
-    font-weight: bold;
+    font-weight: 400;
   }                   
   .main-footer{
 min-height: 300px;
@@ -638,7 +596,7 @@ flex-direction: row;
 }
   .info{
 font-family: 'Ovo';    
-color: rgb(1, 85, 8);
+color:  #004721;
 display: inline-block;
 margin: auto;
 padding: 10px ;
