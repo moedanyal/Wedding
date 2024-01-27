@@ -378,9 +378,9 @@ position: relative;
 width:80%;
 padding-left: 30px;
 margin: 20px auto;
-background-color: #fbece8; 
+background-color: #fffee0; 
 height: 400px;
-background-image: url(images/Henna2.jpg); 
+background-image: url(images/hennareal.jpg); 
 background-position: right;
 background-size:contain ;
 background-repeat: no-repeat;
@@ -391,11 +391,12 @@ background-position-y: -00px; */
 font-family: Pinyon script;  
 color:  #004721;
 font-size: 3rem;
-text-align: center;
+text-align: left;
 margin-top: 15px;
 /* text-decoration: underline; */
 letter-spacing: 6px;
 font-weight: 400;
+padding-left: 100px;
 }
 /* .mehndi-list li{
   color: #fbece8;  
@@ -434,7 +435,7 @@ margin: auto;
   width:80%;
   padding-left: 30px;
   margin: 20px auto;
-  background-color: #fbece8; 
+  background-color: #fffee0; 
   height: 400px;
   background-image: url(images/rings.jpg); 
   /* background-position: ; */
@@ -446,11 +447,12 @@ margin: auto;
       font-family: 'Pinyon Script', cursive; 
       color:  #004721;
     font-size: 3rem;
-    text-align: center;
+    text-align: right;
     margin-top: 15px;
     /* text-decoration: underline; */
     letter-spacing: 10px;
     font-weight: 400;
+    padding-right: 100px;
     }
     /* .wedding-list li{
       color: #fbece8;  
@@ -485,9 +487,9 @@ animation-fill-mode: backwards;
   width:80%;
   padding-left: 30px;
   margin: 20px auto;
-  background-color: #fbece8; 
+  background-color: #fffee0; 
   height: 400px;
-  background-image: url(images/disco.jpg); 
+  background-image: url(images/fooljhadi.jpg); 
   background-position: right;
   background-size:contain ;
   background-repeat: no-repeat;
@@ -496,11 +498,12 @@ animation-fill-mode: backwards;
       font-family: 'Pinyon Script', cursive;
       color:  #004721;
     font-size: 3rem;
-    text-align: center;
+    text-align: left;
     margin-top: 15px;
     /* text-decoration: underline; */
     letter-spacing: 10px;
     font-weight: 400;
+    padding-left: 100px;
     }
     /* .reception-list li{
       color: #fbece8;
