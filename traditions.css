@@ -128,7 +128,7 @@ margin-right: 50px;
 .tradition{
 
 width: 80%;
-margin:  30px auto ;
+margin:  50px auto ;
 left: 0%;
 font-family: 'Ovo', serif;
 font-weight: 400;
@@ -142,8 +142,8 @@ z-index: 10;
 .points{
   color: darkgreen;
   font-family:'Pinyon Script', cursive;  
-  font-weight: 500;
-  font-size: larger;
+  font-weight: 700;
+  font-size: xx-large;
 }
 .second-section{
   /* margin-top: 150px; */
