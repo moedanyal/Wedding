@@ -147,7 +147,7 @@ font-size: 3.5rem;
 font-weight: 200;
 color:  #004721;
 opacity: 1;
-filter: drop-shadow(2px,2px gray);
+/* filter: drop-shadow(2px,2px gray); */
 animation-name: saidyes;
 animation-duration: 8s;
 }
@@ -572,7 +572,7 @@ background-color: #666;
 background-image: url(images/party.jpg);
 background-size: cover;
 background-position: top;
-margin-bottom: 10px;
+/* margin-bottom: 10px; */
 }
 .rsvp-section{
 display: flex;
@@ -585,19 +585,47 @@ justify-content: center;
 color: white;
 
 }
-/* .mehndi-rsvp{
+.hotels{
+width: 100%;
+min-height:200px;
 display: flex;
-background-color:rgb(255, 255, 255); 
+flex-direction: column;
+margin: auto;
 padding: 15px;
-border-radius: 50px;
-color: black;
-  } */
-  .mehndi-rsvp a{
-    text-decoration: none;
-    color: rgb(78, 80, 78);
-    font-size: large;
-    font-weight: bold;
-  }      
+position: relative;
+align-items: center;
+font-size: 1.5rem;
+font-weight: 400;
+color:  #004721;
+background-color: #888;
+margin-bottom: 10px; 
+ background-image: url(images/hotelsfixed.jpg);
+background-position: top;
+background-size: cover; 
+}
+.hotel-names{
+display: flex;
+margin: 15px;
+
+}
+.actual-hotels{
+  font-family: 'Ovo';
+margin-top: 20px;
+text-align: center;
+font-size: 1rem;
+font-weight: bolder;
+/* background-color: #b9b9b9; */
+}
+.actual-hotels a{
+  text-decoration: none;
+  color:  #004721;
+}
+.mehndi-rsvp a{
+text-decoration: none;
+color: rgb(78, 80, 78);
+font-size: large;
+font-weight: bold;
+}      
 .wedding-rsvp{
     display: flex;
     background-color:rgb(255, 255, 255); 
@@ -647,213 +675,3 @@ font-size: 1.5rem;
 
 /* Media responsive */
 
-
-  @media  only screen and ( max-width:1150px){
-    .main-heading{
-      font-family: Pinyon Script;
-    background-color: rgba(222, 218, 154, 0.422);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 200px;
-    position: absolute;
-     top: 50%; 
-    transform: translate(0%,-50%);
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    color: rgb(64, 99, 37);
-    font-size: 2.5rem;
-    letter-spacing: 12px;
-      }
-      .said-yes{
-        width: 100%;
-        background-color: rgba(148, 41, 35, 0.946);
-        height: 300px;
-        padding: 30px;
-        background-image: url(images/wedbg.png);
-        background-size: contain;
-        background-position: right;
-        background-repeat: no-repeat;
-        background-position-x: 1000px;
-        }
-        .btn:link,
-        .btn:visited{
-      /* text-transform: uppercase; */
-      background-color: white; 
-      text-decoration: none;
-      font-size: 1.5rem;
-      border-radius: 50px; 
-      padding: 15px 40px; 
-      display:inline-block;
-      position: absolute;
-      top: 30%;
-      left: 35%;
-      transition: all .22s;
-      letter-spacing:6px;
-       }
-       .dots {
-        position: absolute;
-        bottom: 13%;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-      }
-       .part-two{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width:50%;
-        margin: 10px auto;
-        background-color:#24782563 ;
-        height: 300px;
-        background-image: url(images/wedbg.png);
-        background-position: right;
-        background-size:contain ;
-        background-repeat: no-repeat;
-        background-position-x: -350px;
-        background-position-y: -00px;
-        }
-        .mehndi-list li{
-          color: rgb(81, 60, 8);   
-          font-family: 'Ovo';
-         list-style: none;
-         text-align: right;
-         margin-top: 20px;
-         margin-right:20px;
-         font-size: 1rem;
-         margin-bottom: 45px;
-         animation-name: hitched;
-         animation-duration: 5s;
-         animation-delay: 4s;
-         animation-fill-mode: backwards;
-         }
-         .mehndi-detail{
-          font-family: 'Ovo';  
-        max-width: 800px;
-        text-align: center;
-        font-size: 1rem;
-        color: rgb(81, 60, 8);  
-        margin: auto;
-        
-        }
-        /*    The Wedding     */
-.part-three{
-
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width:50%;
-  margin: 10px auto;
-  background-color:#b8f76663 ;
-  height: 300px;
-  background-image: url(images/ganesh.png);
-  background-position: right;
-  background-size:contain ;
-  background-repeat: no-repeat;
-  background-position-x: -250px;
-  background-position-y: -30px;
-  }
-  .wedding-invite{
-    font-family: 'Pinyon Script', cursive; 
-  color: rgb(83, 104, 34);
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 15px;
-  /* text-decoration: underline; */
-  letter-spacing: 10px;
-  font-weight: 400;
-  }
-  .wedding-list li{
-   color: rgb(81, 60, 8);   
-   font-family: 'Ovo';
-  list-style: none;
-  text-align: right;
-  margin-top: 20px;
-  margin-right:20px;
-  font-size: 1rem;
-  margin-bottom: 40px;
-  animation-name: hitched;
-  animation-duration: 5s;
-  animation-delay: 6s;
-  animation-fill-mode: backwards;
-  }
- 
-  .wedding-detail{
-    font-family: 'Ovo';
-  max-width: 900px;
-  text-align: center;
-  font-size: 1rem;
-  color: rgb(81, 60, 8);  
-  margin: auto;
-    }
-
-      /*    The Reception     */
-.part-four{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width:50%;
-  margin: 10px auto;
-  background-color:rgb(142,185,54) ;
-  height: 300px;
-  background-image: url(images/functionsbg.png);
-  background-position: left;
-  background-size:contain ;
-  background-repeat: no-repeat;
-  background-position-x: -290px;
-  background-position-y: 00px;
-  }
-  .reception-invite{
-    font-family: 'Pinyon Script', cursive;
-  color: rgb(9, 86, 2);
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 15px;
-  /* text-decoration: underline; */
-  letter-spacing: 10px;
-  font-weight: 400;
-  }
-  .reception-list li{
-   color: rgb(9, 86,2 );   
-   font-family: 'Ovo';
-  list-style: none;
-  text-align: right;
-  margin-top: 20px;
-  margin-right:20px;
-  font-size: 1rem;
-  margin-bottom: 45px;
-  animation-name: hitched;
-  animation-duration: 5s;
-  animation-delay: 8s;
-  animation-fill-mode: backwards;
-  /* filter: brightness(1.75); */
-  }
-  .google{
-    font-size:small ;  
-  }
-  .reception-detail{
-    font-family: 'Ovo'
-    ;
-  max-width: 800px;
-  text-align: center;
-  font-size: 1rem;
-  color: rgb(9, 86, 2);  
-  margin: auto;
-      }
-
-  }
-
-
-
-
-@media  only screen and ( max-width:600px) {
-body{
-font-size: 50%;
-background-color: purple
-} 
-.slide-left{
-  font-size: 1rem;
-}
-
-}
