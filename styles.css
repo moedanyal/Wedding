@@ -428,7 +428,7 @@ color:  #004721;
   padding-left: 30px;
   margin: 20px auto;
   background-color: #fffee0; 
-  min-height: 500px;
+  min-height: 400px;
     }
     .wedding-invite{
       font-family: 'Pinyon Script', cursive; 
@@ -442,10 +442,12 @@ color:  #004721;
     }
      .wed-img{
       display: flex;
-      position: absolute;
-      top: 7%;
-      left: 0;
-      width: 100%;
+      flex-direction: column;
+      /* width: 50%;  */
+     position: absolute;
+      transform: translate(0,-50%);
+      top: 50%;
+      left: 0%;
      
      } 
     .wedding-list li{
@@ -453,7 +455,7 @@ color:  #004721;
     font-family: 'Ovo';
 list-style: none;
 text-align: right;
-margin-top: 10px;
+margin-top: 0px;
 margin-right:20px;
 font-size: 1rem;
 margin-bottom: 10px;
@@ -473,6 +475,7 @@ animation-fill-mode: backwards;
     align-content:end;
     float: right;    
     padding-right: 20px;
+    margin-bottom: 15px;
     }
 
     /*    The Reception     */
@@ -484,7 +487,7 @@ animation-fill-mode: backwards;
   padding-left: 30px;
   margin: 20px auto;
   background-color: #fffee0; 
-  min-height: 500px;
+  min-height: 400px;
 
     }
     .reception-invite{
@@ -498,12 +501,14 @@ animation-fill-mode: backwards;
     }
     .rec-img{
       display: flex;
+      flex-direction: column;
+      /* width: 50%;  */
+      align-items: end;
       position: absolute;
-      top: 7%; 
-       right:0; 
-      justify-content: end;
-     width: 100%; 
-     
+      transform: translate(0,-50%);
+      top: 50%;
+      right: 0%;
+      
      } 
     .reception-list li{
       color:  #004721; 
