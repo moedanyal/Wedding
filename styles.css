@@ -261,19 +261,6 @@ font-family: Ovo;
     width: 65%;
     position: relative;
   }
-  
-  /* .testimonial::before {
-    content: '\201C';
-    position: absolute;
-    top: -5.7rem;
-    left: -6.8rem;
-    line-height: 1;
-    font-size: 20rem;
-    font-family: inherit;
-    color: var(--color-primary);
-    z-index: -1;
-  } */
-  
   .testimonial__header {
     font-size: 2.25rem;
     font-weight: 500;
@@ -326,10 +313,8 @@ background-position: left;
 background-size:cover;
 background-repeat: no-repeat;
 /* z-index: -5; */
-
 }
-
-  .btn:link,
+ .btn:link,
   .btn:visited{
 /* text-transform: uppercase; */
 background-color: #fdfdfd; 
@@ -380,12 +365,6 @@ padding-left: 30px;
 margin: 20px auto;
 background-color: #fffee0; 
 min-height: 400px;
-/* background-image: url(images/mehndi7.jpg); 
-background-position: right;
-background-size:contain ;
-background-repeat: no-repeat; */
-/* background-position-x: 1680px;
-background-position-y: -00px; */
 }
 .mehndi-invite{
 font-family: Pinyon script;  
@@ -393,10 +372,8 @@ color:  #004721;
 font-size: 3rem;
 text-align: left;
 margin-top: 15px;
-/* text-decoration: underline; */
 letter-spacing: 6px;
 font-weight: 400;
-/* padding-left: 100px; */
 margin-bottom: 40px;
 }
 .sub-head{
@@ -405,13 +382,16 @@ font-size: 1rem;
 
 }
 .meh-img{
-  display: flex;
-  position: absolute;
-  top: 7%;
-  right:0;
-  justify-content: end;
-width: 100%;
- 
+display: flex;
+flex-direction: column;
+/* width: 50%;  */
+align-items: end;
+position: absolute;
+transform: translate(0,-50%);
+top: 50%;
+right: 0%;
+
+
  } 
 .mehndi-list li{
   color:  #004721; 
@@ -437,8 +417,6 @@ max-width: 800px;
 text-align: left;
 font-size: 1.5 rem;
 color:  #004721;
-/* margin: auto; */
-
 } 
 
 /*    The Wedding     */
@@ -450,14 +428,7 @@ color:  #004721;
   padding-left: 30px;
   margin: 20px auto;
   background-color: #fffee0; 
-  min-height: 400px;
-   /* background-image: url(images/rings.jpg);  
-  background-position:left ; 
-  background-size:contain ;
-  background-repeat: no-repeat; */
-  /* background-position-x: -80%;
-  background-position-y:-50px ; */
-  /* padding-bottom: -20px; */
+  min-height: 500px;
     }
     .wedding-invite{
       font-family: 'Pinyon Script', cursive; 
@@ -465,7 +436,6 @@ color:  #004721;
     font-size: 3rem;
     text-align: right;
     margin-top: 15px;
-    /* text-decoration: underline; */
     letter-spacing: 10px;
     font-weight: 400;
      padding-right: 15px; 
@@ -514,11 +484,8 @@ animation-fill-mode: backwards;
   padding-left: 30px;
   margin: 20px auto;
   background-color: #fffee0; 
-  min-height: 400px;
-  /* background-image: url(images/fooljhadi.jpg); 
-  background-position: right;
-  background-size:contain ;
-  background-repeat: no-repeat; */
+  min-height: 500px;
+
     }
     .reception-invite{
       font-family: 'Pinyon Script', cursive;
@@ -526,10 +493,8 @@ animation-fill-mode: backwards;
     font-size: 3rem;
     text-align: left;
     margin-top: 15px;
-    /* text-decoration: underline; */
     letter-spacing: 10px;
     font-weight: 400;
-    /* padding-left: 100px; */
     }
     .rec-img{
       display: flex;
@@ -563,7 +528,6 @@ animation-fill-mode: backwards;
     text-align: left;
     font-size: 1rem;
     color:  #004721;
-    /* margin:  auto ; */
         } 
   .part-five{
 display: flex;
