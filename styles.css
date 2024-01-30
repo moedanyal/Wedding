@@ -325,7 +325,7 @@ border-radius: 5rem;
 padding: 1.5rem 4rem; 
 display:inline-block;
 position: absolute;
-top: 30%;
+top: 40%;
 left: 40%;
 transition: all .22s;
 letter-spacing:.6rem;
@@ -660,6 +660,35 @@ font-size: 1.5rem;
 /* Media responsive */
 
 @media only screen and  (max-width: 1400px) {
+  .main-heading{
+    font-family: Pinyon Script;
+  /* background-color: rgba(222, 218, 154, 0.422); */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40rem;
+  position: absolute;
+   top: 50%; 
+  transform: translate(0%,-50%);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color:  #004721;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+ 
+  }
+  .meh-img{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    transform: translate(0,-50%);
+    top: 50%;
+   z-index: -1;
+    } 
   
   .wed-img{
     display: flex;
@@ -668,13 +697,23 @@ font-size: 1.5rem;
      height: 30%;
     position: absolute;
     transform: translate(0,-50%);
-    top: 50%;
+    top: 35%;
     left: 0%;
     z-index: -1;
    
    } 
 
-
+   .rec-img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;  
+    align-items: end;
+    position: absolute;
+    transform: translate(0,-50%);
+    top: 50%;
+    right: 0%;
+    z-index: -1;
+   }
 
 
 }
