@@ -15,6 +15,7 @@ background-color: rgb(153 51 51);
 }
 html{
   height: 100%;
+  font-size: 14px;
 }
 body{
   font-family: 'Ovo', serif;
@@ -39,17 +40,17 @@ left: 2%;
   color:  #004721;
 }
 .main-nav a:hover {
-/* background-color: rgb(128, 156, 141);
-border-radius: 30px;
+color: rgb(255, 255, 255);
+/* border-radius: 30px;
 padding-right: 50px;
-padding-left: 50px; */
+padding-left: 50px;  */
 }
 .main-nav li{
- margin: 2px; 
+ margin: .2rem; 
 color: rgb(210, 8, 8); 
 /* background-color: rgba(208, 230, 14, 0.405); */
-border-radius: 15px;
-padding: 2px;
+border-radius: 1.5rem;
+padding: .2rem;
 text-align: center;
 list-style: none;
 font-size: 1.5rem;
@@ -76,7 +77,7 @@ opacity: 1;
 display: flex;
 flex-direction: column;
 width: 100%;
-height: 400px;
+height: 40rem;
 position: absolute;
  top: 50%; 
 transform: translate(0%,-50%);
@@ -85,7 +86,7 @@ text-align: center;
 justify-content: center;
 color:  #004721;
 font-size: 4.5rem;
-letter-spacing: 12px;
+letter-spacing: 1.2rem;
 
 
 }
@@ -99,7 +100,7 @@ letter-spacing: 12px;
 }
 @keyframes names{
 0%{
-transform:translateX(-400px) ;
+transform:translateX(-40rem) ;
 opacity: 0; 
 }
 100%{
@@ -109,7 +110,7 @@ transform: translateX(0);
 }
 @keyframes hitched{
     0%{
-    transform:translateX(400px) ;
+    transform:translateX(40rem) ;
      opacity: 0; 
     }
     100%{
@@ -121,8 +122,8 @@ transform: translateX(0);
 
 width: 100%;
 /* background-color: #566e2d; */
-height: 300px;
-padding: 30px;
+height: 30rem;
+padding: 3rem;
 background-image: url(images/rings3.jpg);
 background-size: cover;
 background-position: left;
@@ -131,7 +132,7 @@ background-repeat: no-repeat;
 }
 @keyframes saidyes{
     0%{
-    transform:translateY(-800px) ;
+    transform:translateY(-80rem) ;
      opacity: 0; 
     }
     100%{
@@ -140,9 +141,9 @@ background-repeat: no-repeat;
     }
 }
 .heading-two{
-  margin-top: 35px;
-letter-spacing: 25px;
-margin-bottom: 50px;
+  margin-top: 3.5rem;
+letter-spacing: 2.5rem;
+margin-bottom: 5rem;
 font-size: 3.5rem;
 font-weight: 200;
 color:  #004721;
@@ -152,15 +153,15 @@ animation-name: saidyes;
 animation-duration: 8s;
 }
 .accept{
-max-width: 1000px;
+max-width: 100rem;
 margin: auto;
 text-align: center;
-font-size: 22px;
+font-size: 2.2rem;
 color:  #004721;
-filter: drop-shadow(2px,2px gray);
+filter: drop-shadow(.2rem,.2rem gray);
 }
 .yes-para{
-margin-top: 20px;
+margin-top: 2rem;
 font-family: Ovo;
 }
 /* This is a slide show          */
@@ -173,7 +174,7 @@ font-family: Ovo;
     /* margin-top: -390px;
    /* margin-left: 150px; */
     /* IN THE END */
-    margin: -20px auto;
+    margin: -2rem auto;
     overflow: hidden;
   }
   
@@ -304,11 +305,11 @@ font-family: Ovo;
   }
   /* Slide show ends here*/
 .test{
-  margin-top: 40px;
+  margin-top: 4rem;
 /* background-color: #f6f6f6;  */
-min-height: 300px;
+min-height: 30rem;
 position: relative;
-background-image: url(images/pinkgift3.jpeg);
+background-image: url(images/pinkgift3fixed.jpg);
 background-position: left;
 background-size:cover;
 background-repeat: no-repeat;
@@ -320,23 +321,23 @@ background-repeat: no-repeat;
 background-color: #fdfdfd; 
 text-decoration: none;
 font-size: 2.5rem;
-border-radius: 50px; 
-padding: 15px 40px; 
+border-radius: 5rem; 
+padding: 1.5rem 4rem; 
 display:inline-block;
 position: absolute;
 top: 30%;
 left: 40%;
 transition: all .22s;
-letter-spacing:6px;
+letter-spacing:.6rem;
 color:  #004721;
 }
 .btn:hover{
-transform:translateY(-3px);
-box-shadow: 0 10px 20px rgb(0,0,0,.2);
+transform:translateY(-.30rem);
+box-shadow: 0 1rem 2rem rgb(0,0,0,.2);
 }
 .btn:active{
-transform:translateY(-1px);
-box-shadow: 0 5px 10px rgb(0,0,0,.2);
+transform:translateY(-.10rem);
+box-shadow: 0 .5rem 1rem rgb(0,0,0,.2);
 }
 .btn::after{
 content:"";
@@ -360,48 +361,40 @@ transition: all .4s;
 display: flex;
 flex-direction: column;
 position: relative;
-width:80%;
-padding-left: 30px;
-margin: 20px auto;
+width:70%;
+padding-left: 3rem;
+margin: 2rem auto; 
 background-color: #fffee0; 
-min-height: 400px;
+height: auto;
+z-index: 100;
+filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.175));
+
 }
 .mehndi-invite{
 font-family: Pinyon script;  
 color:  #004721;
 font-size: 3rem;
 text-align: left;
-margin-top: 15px;
-letter-spacing: 6px;
+margin-top: 1.5rem;
+letter-spacing: .6rem;
 font-weight: 400;
-margin-bottom: 40px;
+margin-bottom: 2rem;
 }
 .sub-head{
 font-family: 'Ovo';
 font-size: 1rem;
 
 }
-.meh-img{
-display: flex;
-flex-direction: column;
-/* width: 50%;  */
-align-items: end;
-position: absolute;
-transform: translate(0,-50%);
-top: 50%;
-right: 0%;
 
-
- } 
 .mehndi-list li{
   color:  #004721; 
  font-family: 'Ovo';
 list-style: none;
 text-align: left;
-margin-top: 10px;
-margin-right:20px;
+margin-top: 1rem;
+margin-right:2rem;
 font-size: 1rem;
-margin-bottom: 10px;
+margin-bottom: 1rem;
 animation-name: hitched;
 animation-duration: 5s;
 animation-delay: 4s;
@@ -413,50 +406,55 @@ color: rgb(83,104,34);
 }
  .mehndi-detail{
  font-family: 'Ovo';  
-max-width: 800px;
+max-width: 80rem;
 text-align: left;
 font-size: 1.5 rem;
 color:  #004721;
+z-index: 100;
+margin-bottom: 1.5rem;
 } 
+.meh-img{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: absolute;
+  right: 0;
+  transform: translate(0,-50%);
+  top: 50%;
+ z-index: -1;
+  } 
 
 /*    The Wedding     */
 .part-three{
   display: flex;
   flex-direction: column;
   position: relative;
-  width:80%;
-  padding-left: 30px;
-  margin: 20px auto;
+  width:70%;
+  padding-left: 3rem;
+  margin: 2rem auto;
   background-color: #fffee0; 
-  min-height: 400px;
+ height: auto;
+ z-index: 100;
+ filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
     }
     .wedding-invite{
       font-family: 'Pinyon Script', cursive; 
       color:  #004721;
     font-size: 3rem;
     text-align: right;
-    margin-top: 15px;
-    letter-spacing: 10px;
+    margin-top: 1.5rem;
+    letter-spacing: .5rem;
     font-weight: 400;
-     padding-right: 15px; 
+     padding-right: 1.5rem; 
     }
-     .wed-img{
-      display: flex;
-      flex-direction: column;
-      /* width: 50%;  */
-     position: absolute;
-      transform: translate(0,-50%);
-      top: 50%;
-      left: 0%;
      
-     } 
     .wedding-list li{
       color:  #004721; 
     font-family: 'Ovo';
 list-style: none;
 text-align: right;
 margin-top: 0px;
-margin-right:20px;
+margin-right:2rem;
 font-size: 1rem;
 margin-bottom: 10px;
 animation-name: hitched;
@@ -467,58 +465,61 @@ animation-fill-mode: backwards;
    
    .wedding-detail{
       font-family: 'Ovo';
-    max-width: 600px;
+    max-width: 40rem;
     text-align: right;
     font-size: 1rem;
     color:  #004721;
     /* margin: auto;  */
     align-content:end;
     float: right;    
-    padding-right: 20px;
-    margin-bottom: 15px;
+    padding-right: 2rem;
+    margin-bottom: 1.5rem;
+    z-index: 10;
     }
+    .wed-img{
+      display: flex;
+      flex-direction: column;
+      /* width: 50%;  */
+     position: absolute;
+      transform: translate(0,-50%);
+      top: 50%;
+      left: 0%;
+      z-index: -1;
+     
+     } 
 
     /*    The Reception     */
 .part-four{
   display: flex;
   flex-direction: column;
   position: relative;
-  width:80%;
-  padding-left: 30px;
-  margin: 20px auto;
+  width:70%;
+  padding-left: 3rem;
+  margin: 2rem auto;
   background-color: #fffee0; 
-  min-height: 400px;
-
+  height: auto;
+  filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
+ z-index: 100;
     }
     .reception-invite{
       font-family: 'Pinyon Script', cursive;
       color:  #004721;
     font-size: 3rem;
     text-align: left;
-    margin-top: 15px;
-    letter-spacing: 10px;
+    margin-top: 1.5rem;
+    letter-spacing: 1rem;
     font-weight: 400;
     }
-    .rec-img{
-      display: flex;
-      flex-direction: column;
-      /* width: 50%;  */
-      align-items: end;
-      position: absolute;
-      transform: translate(0,-50%);
-      top: 50%;
-      right: 0%;
-      
-     } 
+  
     .reception-list li{
       color:  #004721; 
       font-family: 'Ovo';
      list-style: none;
      text-align: left;
-     margin-top: 20px;
-     margin-right:20px;
+     margin-top: 2rem;
+     margin-right:2rem;
      font-size: 1rem;
-     margin-bottom: 10px;
+     margin-bottom: 1rem;
      animation-name: hitched;
      animation-duration: 5s;
      animation-delay: 4s;
@@ -529,11 +530,25 @@ animation-fill-mode: backwards;
     }
     .reception-detail{
       font-family: 'Ovo';
-    max-width: 800px;
+    max-width: 80rem;
     text-align: left;
     font-size: 1rem;
     color:  #004721;
+    z-index: 100;
+    margin-bottom: 1.5rem;
         } 
+        .rec-img{
+          display: flex;
+          flex-direction: column;
+          /* width: 50%;  */
+          align-items: end;
+          position: absolute;
+          transform: translate(0,-50%);
+          top: 50%;
+          right: 0%;
+          z-index: -1;
+         }
+
   .part-five{
 display: flex;
 flex-direction: row;
@@ -546,8 +561,8 @@ background-position: top;
 .rsvp-section{
 display: flex;
 flex-direction: row;
-gap: 50px;
-min-height: 400px;
+gap: 5rem;
+min-height: 40rem;
 width: 100%;
 align-items:center;
 justify-content: center;
@@ -556,30 +571,30 @@ color: white;
 }
 .hotels{
 width: 100%;
-min-height:200px;
+min-height:20rem;
 display: flex;
 flex-direction: column;
 margin: auto;
-padding: 15px;
+padding: 1.5rem;
 position: relative;
 align-items: center;
 font-size: 1.5rem;
 font-weight: 400;
 color:  #004721;
 background-color: #888;
-margin-bottom: 10px; 
+margin-bottom: 1rem; 
  background-image: url(images/hotelsfixed.jpg);
 background-position: top;
 background-size: cover; 
 }
 .hotel-names{
 display: flex;
-margin: 15px;
+margin: 1.5rem;
 
 }
 .actual-hotels{
   font-family: 'Ovo';
-margin-top: 20px;
+margin-top: 2rem;
 text-align: center;
 font-size: 1rem;
 font-weight: bolder;
@@ -598,8 +613,8 @@ font-weight: bold;
 .wedding-rsvp{
     display: flex;
     background-color:rgb(255, 255, 255); 
-    padding: 15px;
-    border-radius: 50px;
+    padding: 1.5rem;
+    border-radius: 5rem;
     color: black;
   } 
   .wedding-rsvp a{
@@ -622,7 +637,7 @@ font-weight: bold;
     font-weight: 400;
   }                   
   .main-footer{
-min-height: 300px;
+min-height: 30rem;
 width: 100%;
 background-color: #ffffff; 
 display: flex;
@@ -633,7 +648,7 @@ font-family: 'Ovo';
 color:  #004721;
 display: inline-block;
 margin: auto;
-padding: 10px ;
+padding: 1rem ;
 /* background-color: cadetblue; */
 text-align: center;
 font-size: 1.5rem;
@@ -644,3 +659,22 @@ font-size: 1.5rem;
 
 /* Media responsive */
 
+@media only screen and  (max-width: 1400px) {
+  
+  .wed-img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;  
+     height: 30%;
+    position: absolute;
+    transform: translate(0,-50%);
+    top: 50%;
+    left: 0%;
+    z-index: -1;
+   
+   } 
+
+
+
+
+}
