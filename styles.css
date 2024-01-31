@@ -311,7 +311,7 @@ font-family: Ovo;
 /* text-transform: uppercase; */
 background-color: #fdfdfd; 
 text-decoration: none;
-font-size: 2.5rem;
+font-size: 1.5rem;
 border-radius: 5rem; 
 padding: 1.5rem 4rem; 
 display:inline-block;
@@ -336,7 +336,7 @@ display: inline-block;
 height: 100%;
 width: 100%;
 border-radius: 100px;
-background-color: #eff3c4;
+background-color: #f3e7c4;
 position: absolute;
 top: 0;
 left: 0;
