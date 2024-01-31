@@ -143,7 +143,7 @@ background-repeat: no-repeat;
 .heading-two{
   margin-top: 3.5rem;
 letter-spacing: 2.5rem;
-margin-bottom: 5rem;
+margin-bottom: 7rem;
 font-size: 3.5rem;
 font-weight: 200;
 color:  #004721;
@@ -153,16 +153,17 @@ animation-name: saidyes;
 animation-duration: 8s;
 }
 .accept{
-max-width: 100rem;
+/* max-width: 100rem; */
 margin: auto;
 text-align: center;
-font-size: 2.2rem;
+font-size: 1.5rem;
 color:  #004721;
 filter: drop-shadow(.2rem,.2rem gray);
 }
 .yes-para{
 margin-top: 2rem;
 font-family: Ovo;
+
 }
 /* This is a slide show          */
 .slider {
@@ -174,7 +175,7 @@ font-family: Ovo;
     /* margin-top: -390px;
    /* margin-left: 150px; */
     /* IN THE END */
-    margin: -2rem auto;
+     margin:  auto; 
     overflow: hidden;
   }
   
@@ -304,17 +305,7 @@ font-family: Ovo;
     margin-bottom: 4rem;
   }
   /* Slide show ends here*/
-.test{
-  margin-top: 4rem;
-/* background-color: #f6f6f6;  */
-min-height: 30rem;
-position: relative;
-background-image: url(images/pinkgift3fixed.jpg);
-background-position: left;
-background-size:cover;
-background-repeat: no-repeat;
-/* z-index: -5; */
-}
+
  .btn:link,
   .btn:visited{
 /* text-transform: uppercase; */
@@ -358,6 +349,7 @@ transition: all .4s;
 }
 
 .part-two{
+
 display: flex;
 flex-direction: column;
 position: relative;
@@ -604,6 +596,18 @@ font-weight: bolder;
   text-decoration: none;
   color:  #004721;
 }
+.test{
+  margin-top: 1.5rem;
+/* background-color: #f6f6f6;  */
+min-height: 30rem;
+position: relative;
+background-image: url(images/pinkgift3fixed.jpg);
+background-position: left;
+background-size:cover;
+background-repeat: no-repeat;
+/* z-index: -5; */
+margin-bottom: 1.5rem;
+}
 .mehndi-rsvp a{
 text-decoration: none;
 color: rgb(78, 80, 78);
@@ -637,7 +641,7 @@ font-weight: bold;
     font-weight: 400;
   }                   
   .main-footer{
-min-height: 30rem;
+max-height: 15rem;
 width: 100%;
 background-color: #ffffff; 
 display: flex;
@@ -714,6 +718,17 @@ font-size: 1.5rem;
     right: 0%;
     z-index: -1;
    }
-
-
+   .test{
+    margin-top: 1rem;
+  /* background-color: #f6f6f6;  */
+  min-height: 30rem;
+  position: relative;
+  background-image: url(images/pinkgift3fixed.jpg);
+  background-position: left;
+  background-size:cover;
+  background-repeat: no-repeat;
+  /* z-index: -5; */
+  margin-bottom: 1.5rem;
+margin-right: 1rem;  
+}
 }
