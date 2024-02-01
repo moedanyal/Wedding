@@ -732,3 +732,65 @@ font-size: 1.5rem;
 margin-right: 1rem;  
 }
 }
+@media only screen and  (max-width: 900px){
+  .test{
+    margin-top: 1rem;
+  /* background-color: #f6f6f6;  */
+  min-height: 10rem;
+  position: relative;
+  background-image: url(images/pinkgift3fixed.jpg);
+  background-position: left;
+  background-size:cover;
+  background-repeat: no-repeat;
+  /* z-index: -5; */
+  margin-bottom: 1.5rem;
+ margin-right: 1rem;  
+}
+
+  .btn:link,
+  .btn:visited{
+/* text-transform: uppercase; */
+background-color: #fdfdfd; 
+text-decoration: none;
+font-size: 1.5rem;
+border-radius: 1rem; 
+padding: .5rem .5rem; 
+display:inline-block;
+position: absolute;
+top: 40%;
+left: 30%;
+transition: all .22s;
+letter-spacing:.6rem;
+color:  #004721;
+}
+.btn:hover{
+transform:translateY(-.30rem);
+box-shadow: 0 1rem 2rem rgb(0,0,0,.2);
+}
+.btn:active{
+transform:translateY(-.10rem);
+box-shadow: 0 .5rem 1rem rgb(0,0,0,.2);
+}
+.btn::after{
+content:"";
+display: inline-block;
+height: 100%;
+width: 100%;
+border-radius: 100px;
+background-color: #f3e7c4;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all .4s;
+}
+.btn:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
+
+
+
+}
