@@ -2093,7 +2093,7 @@ transition: all .4s;
   
   }
 
-@media only screen and  (maxc-width: 425px){
+@media only screen and  (max-width: 425px){
   .main-nav{
   position: absolute; 
   top: 4%;
@@ -2129,8 +2129,8 @@ transition: all .4s;
     text-align: center;
     justify-content: center;
     color:  #004721;
-    font-size: 1rem;
-    letter-spacing: .2rem;
+    font-size: 1.5rem;
+     letter-spacing: .2rem;
     }
   .said-yes{
   /* margin-bottom: -12rem; */
@@ -2322,7 +2322,7 @@ transition: all .4s;
     display: flex;
     flex-direction: column;
     position: relative;
-    width:70%;
+    width:80%;
     padding-left: 3rem;
     margin: 1rem auto; 
     background-color: #fffee0; 
@@ -2370,7 +2370,7 @@ transition: all .4s;
      font-family: 'Ovo';  
     max-width: 50rem;
     text-align: left;
-    font-size: 1.5 rem;
+    font-size: 1 rem;
     color:  #004721;
     z-index: 100;
     /* margin-bottom: 1.5rem; */
@@ -2393,7 +2393,7 @@ transition: all .4s;
     display: flex;
     flex-direction: column;
     position: relative;
-    width:70%;
+    width:80%;
     padding-left: 3rem;
     margin: 2rem auto;
     background-color: #fffee0; 
@@ -2462,7 +2462,7 @@ transition: all .4s;
     display: flex;
     flex-direction: column;
     position: relative;
-    width:70%;
+    width:80%;
     padding-left: 3rem;
     margin: 2rem auto;
     background-color: #fffee0; 
