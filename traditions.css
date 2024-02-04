@@ -411,19 +411,37 @@ width: 40%;
   letter-spacing: 2px;
   
   }
-    .main-nav li{
+  .main-nav{
+    position: absolute; 
+    top: 2%;
+    left: 5%;
+    z-index: 100;
+    }
+      .main-nav li{
     font-family:'Pinyon Script', cursive;
     margin-left: 1.8rem;
     color: rgb(210, 8, 8); 
     /* background-color: rgba(208, 230, 14, 0.405); */
-    border-radius: 15px;
+    /* border-radius: 15px;
     padding: 2px;
-    text-align: center;
+    text-align: center; */
     list-style:none;
     font-size: .5rem;
     display: inline-flex;
    
     /* float: right; */
+    }
+    .main-nav a{
+      text-decoration: none;
+      color:  #ffffff;
+      z-index: 100;
+    }
+    .main-nav a:hover {
+      color:  #ffffff;
+    /* border-radius: 30px; */
+    /* padding-right: 50px;
+    padding-left: 50px; */
+    z-index: 100;
     }
 
 
