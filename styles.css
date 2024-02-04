@@ -438,7 +438,7 @@ animation-fill-mode: backwards;
    
    .wedding-detail{
       font-family: 'Ovo';
-    max-width: 35rem;
+    max-width: 55rem;
     text-align: right;
     font-size: 1rem;
     color:  #004721;
@@ -446,7 +446,7 @@ animation-fill-mode: backwards;
     align-content:end;
     float: right;    
     padding-right: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: -1.5rem;
     z-index: 10;
     }
     .wed-img{
