@@ -69,11 +69,11 @@ font-family:'Pinyon Script', cursive;
     }*/
     .main-heading{
       font-family: Pinyon Script;
-    background-color: #fbece874; 
+      background-color: #fbece874; 
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 400px;
+    height: 20rem;
     position: absolute;
      top: 50%; 
     transform: translate(0%,-50%);
@@ -116,8 +116,8 @@ font-family:'Pinyon Script', cursive;
     }
     .video{
     
-margin-left: 50px;
-margin-right: 50px;
+/* margin-left: 50px;
+margin-right: 50px; */
  z-index: -20; 
 
     }
@@ -144,6 +144,7 @@ z-index: 10;
   font-family:'Pinyon Script', cursive;  
   font-weight: 700;
   font-size: xx-large;
+  letter-spacing: .5rem;
 }
 .second-section{
   /* margin-top: 150px; */
@@ -163,6 +164,7 @@ display: flex;
 width: 40%;
 }
 .main-footer{
+  font-family: 'Ovo';
     /* height: 100%; */
     width : 100%;
     background-color: #fbece8;  
@@ -184,11 +186,30 @@ width: 40%;
           }
 
 @media screen and (max-width:1100px) {
+  .main-heading{
+    font-family: Pinyon Script;
+  background-color: #fbece874; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+   top: 35%; 
+  transform: translate(0%,-50%);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color:  #004721;
+  font-size: 2.5rem;
+  letter-spacing: 12px;
+  
+  
+  }
     .main-nav li{
     font-family:'Pinyon Script', cursive;
     margin: 2px;
     color: rgb(210, 8, 8); 
-    background-color: rgba(208, 230, 14, 0.405);
+    background-color: #fbece874; 
     border-radius: 15px;
     padding: 2px;
     text-align: center;
@@ -231,14 +252,181 @@ width: 40%;
         text-align: center;
         font-size: 1rem;
               } 
-
-
-
-
-
-
-
-
-
-
 }
+@media screen and (max-width:850px) {
+  .main-heading{
+    font-family: Pinyon Script;
+  background-color: #fbece874; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+   top: 20%; 
+  transform: translate(0%,-50%);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color:  #004721;
+  font-size: 1.5rem;
+  letter-spacing: 12px;
+  
+  }
+    .main-nav li{
+    font-family:'Pinyon Script', cursive;
+    margin-left: 4rem;
+    color: rgb(210, 8, 8); 
+    background-color: #fbece874; 
+    border-radius: 15px;
+    padding: 2px;
+    text-align: center;
+    list-style: none;
+    font-size: 1rem;
+    display: inline-flex;
+   
+    /* float: right; */
+    }
+    .second-section{
+      /* margin-top: 150px; */
+    justify-content: center;
+      display: flex;
+     flex-direction: column;
+     gap: 10px;
+     
+    }
+    .card-one{
+      display: flex;
+      width: 20%;
+      background-color: red;
+      }
+      .card-two{
+      display: flex;
+      width: 20%;
+      background-color: green;
+      }
+      .main-footer{
+        max-height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);  
+       display: flex;
+        flex-direction: row; 
+      
+      }
+    .info{
+        font-family: 'Pinyon Script';    
+        color:  #004721;
+        display: inline-block;
+        margin:30px auto;
+        /* background-color: rgb(240, 240, 240); */
+        text-align: center;
+        font-size: 1rem;
+              } 
+}
+@media screen and (max-width:700px) {
+  .main-heading{
+    font-family: Pinyon Script;
+  background-color: #fbece874; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+   top: 15%; 
+  transform: translate(0%,-50%);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color:  #004721;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  
+  }
+    .main-nav li{
+    font-family:'Pinyon Script', cursive;
+    margin-left: 2rem;
+    color: rgb(210, 8, 8); 
+    background-color: #fbece874; 
+    border-radius: 15px;
+    padding: 2px;
+    text-align: center;
+    list-style: none;
+    font-size: 1rem;
+    display: inline-flex;
+   
+    /* float: right; */
+    }
+    .second-section{
+      /* margin-top: 150px; */
+    justify-content: center;
+      display: flex;
+     flex-direction: column;
+     gap: 10px;
+     
+    }
+    .card-one{
+      display: flex;
+      width: 20%;
+      background-color: red;
+      }
+      .card-two{
+      display: flex;
+      width: 20%;
+      background-color: green;
+      }
+      .main-footer{
+        max-height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);  
+       display: flex;
+        flex-direction: row; 
+      
+      }
+    .info{
+        font-family: 'Pinyon Script';    
+        color:  #004721;
+        display: inline-block;
+        margin:30px auto;
+        /* background-color: rgb(240, 240, 240); */
+        text-align: center;
+        font-size: 1rem;
+              } 
+
+            }
+@media screen and (max-width:550px){
+  .main-heading{
+    font-family: Pinyon Script;
+  background-color: #fbece874; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+   top: 15%; 
+  transform: translate(0%,-50%);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color:  #004721;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  
+  }
+    .main-nav li{
+    font-family:'Pinyon Script', cursive;
+    margin-left: 1.8rem;
+    color: rgb(210, 8, 8); 
+    /* background-color: rgba(208, 230, 14, 0.405); */
+    border-radius: 15px;
+    padding: 2px;
+    text-align: center;
+    list-style:none;
+    font-size: .5rem;
+    display: inline-flex;
+   
+    /* float: right; */
+    }
+
+
+
+
+            }
