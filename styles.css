@@ -1503,8 +1503,597 @@ transition: all .4s;
 
 
 }
+@media only screen and  (max-width: 457px){
+  .main-nav{
+  position: absolute; 
+  top: 2%;
+  left: 20%;
+  }
+  .main-nav a{
+    text-decoration: none;
+    color:  #004721;
+  }
+  .main-nav a:hover {
+  color: rgb(255, 255, 255);
+  }
+  .main-nav li{
+   margin: .2rem; 
+  color: rgb(210, 8, 8); 
+  padding: .2rem;
+  text-align: center;
+  list-style: none;
+  font-size: .9rem;
+  font-weight: 400;
+  display: inline-flex;
+  }
+  .main-heading{
+    font-family: Pinyon Script;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+    position: absolute;
+    top: 50%; 
+    transform: translate(0%,-50%);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color:  #004721;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    }
+  .said-yes{
+  /* margin-bottom: -12rem; */
+    width: 100%;
+    /* background-color: #566e2d; */
+    height: 10rem;
+    padding: 3rem;
+    background-image: url(images/rings3.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    }
+    @keyframes saidyes{
+        0%{
+        transform:translateY(-50rem) ;
+         opacity: 0; 
+        }
+        100%{
+        transform: translateX(0);
+         opacity: 1; 
+        }
+    }
+    .heading-two{
+     margin-top:-2rem; 
+    letter-spacing: .5rem; 
+    margin-bottom: 1rem; 
+    font-size: 2rem;
+    font-weight: 200;
+    color:  #004721;
+    opacity: 1;
+    /* filter: drop-shadow(2px,2px gray); */
+    animation-name: saidyes;
+    animation-duration: 8s;
+    }
+    .accept{
+    max-width: 100rem; 
+    margin: auto;
+    text-align: center;
+    font-size: .8rem;
+    color:  #004721;
+    filter: drop-shadow(.2rem,.2rem gray);
+    }
+    .yes-para{
+    margin-top: 2rem;
+    font-family: Ovo;
+    
+    }
+    /* This is a slide show          */
+  .slider {
+    max-width: 100rem;
+  height:26rem;
+  /* margin: 0 auto; */
+  position: relative;
+  /* margin-top: -390px;
+  /* margin-left: 150px; */
+  /* IN THE END */
+  margin:  auto; 
+  overflow: hidden;
+  margin-bottom: 4rem;
+  }
+  
+  .slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* THIS creates the animation! */
+  transition: transform 1s;
+  
+  }
+  
+  .slide > img {
+  /* Only for images that have different size than slide */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+  
+  .slider__btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background: rgba(214, 209, 209, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 3.25rem;
+  cursor: pointer;
+  }
+  
+  .slider__btn--left {
+  left: 7%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .slider__btn--right {
+  right: 7%;
+  transform: translate(50%, -50%);
+  }
+  
+  .dots {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  }
+  
+  .dots__dot {
+  border: none;
+  background-color: #b9b9b9;
+  opacity: 0.7;
+  height: .5rem;
+  width: .5rem;
+  border-radius: 50%;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  
+  /* Only necessary when overlying images */
+  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
+  }
+  
+  .dots__dot:last-child {
+  margin: 0;
+  }
+  
+  .dots__dot--active {
+  /* background-color: #fff; */
+  background-color: #888;
+  opacity: 1;
+  }
+  
+  /* TESTIMONIALS */
+  /* .testimonial {
+  width: 65%;
+  position: relative;
+  } */
+  /* .testimonial__header {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  } */
+  
+  /* .testimonial__text {
+  font-size: 1.7rem;
+  margin-bottom: 3.5rem;
+  color: #666;
+  } */
+  
+  /* .testimonial__author {
+  margin-left: 3rem;
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  column-gap: 2rem;
+  } */
+  
+  /* .testimonial__photo {
+  grid-row: 1 / span 2;
+  width: 6.5rem;
+  border-radius: 50%;
+  } */
+  
+  /* .testimonial__name {
+  font-size: 1.7rem;
+  font-weight: 500;
+  align-self: end;
+  margin: 0;
+  } */
+  
+  /* .testimonial__location {
+  font-size: 1.5rem;
+  } */
+  
+  /* .section__title--testimonials {
+  margin-bottom: 4rem;
+  } */
+  /* Slide show ends here*/
+  
+  .part-two{
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:80%;
+    padding-left: 3rem;
+    margin: 1rem auto; 
+    background-color: #fffee0; 
+    z-index: 100;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.175));
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    }
+    .mehndi-invite{
+    font-family: Pinyon script;  
+    color:  #004721;
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 1.5rem;
+    letter-spacing: .6rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    }
+    .sub-head{
+    font-family: 'Ovo';
+    font-size: 1rem;
+    
+    }
+    
+    .mehndi-list li{
+      color:  #004721; 
+     font-family: 'Ovo';
+    list-style: none;
+    text-align: left;
+    margin-top: 1rem;
+    margin-right:2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    animation-name: hitched;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: backwards;
+    
+    }
+    .google a{
+    text-decoration: none;
+    color: rgb(83,104,34);
+    }
+     .mehndi-detail{
+     font-family: 'Ovo';  
+    max-width: 50rem;
+    text-align: left;
+    font-size: 1.5 rem;
+    color:  #004721;
+    z-index: 100;
+    /* margin-bottom: 1.5rem; */
+    } 
+    .meh-img{
+      display: flex;
+      flex-direction: row;
+      align-items: end;
+      position: absolute;
+      right: -1.5rem;
+      transform: translate(0%,0);
+      top: 65%; 
+     z-index: -1;
+     margin-top: 2rem;
+     width: 90%;
+      } 
+      /*    The Wedding     */
+  .part-three{
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:80%;
+    padding-left: 3rem;
+    margin: 2rem auto;
+    background-color: #fffee0; 
+   height: auto;
+   z-index: 100;
+   filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
+   padding-top: 3rem;
+  padding-bottom: 3rem;
+      }
+      .wedding-invite{
+        font-family: 'Pinyon Script', cursive; 
+        color:  #004721;
+      font-size: 3rem;
+      text-align: left;
+      margin-top: 1.5rem;
+      letter-spacing: .5rem;
+      font-weight: 400;
+       padding-right: 1.5rem; 
+      }
+       
+      .wedding-list li{
+        color:  #004721; 
+      font-family: 'Ovo';
+  list-style: none;
+  text-align: left;
+  margin-top: 0px;
+  margin-right:2rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  animation-name: hitched;
+  animation-duration: 5s;
+  animation-delay: 4s;
+  animation-fill-mode: backwards;
+      } 
+     
+     .wedding-detail{
+        font-family: 'Ovo';
+      max-width: 35rem;
+      text-align: left;
+      font-size: 1rem;
+      color:  #004721;
+      /* margin: auto;  */
+      align-content:end;
+      float: right;    
+      padding-right: 2rem;
+      margin-bottom: 1.5rem;
+      z-index: 10;
+      }
+      .wed-img{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        position: absolute;
+        right: 0;
+        transform: translate(15%,0);
+        top: 60%; 
+       z-index: -1;
+       margin-top: 2rem;
+       width: 90%;
+       
+       } 
+  
+      /*    The Reception     */
+  .part-four{
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:80%;
+    padding-left: 3rem;
+    margin: 2rem auto;
+    background-color: #fffee0; 
+    height: auto;
+    filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
+    padding-top: 3rem;
+  padding-bottom: 3rem;
+   z-index: 100;
+      }
+      .reception-invite{
+        font-family: 'Pinyon Script', cursive;
+        color:  #004721;
+      font-size: 2.5rem;
+      text-align: left;
+      margin-top: 1.5rem;
+      letter-spacing: .5rem; 
+      font-weight: 400;
+      }
+    
+      .reception-list li{
+        color:  #004721; 
+        font-family: 'Ovo';
+       list-style: none;
+       text-align: left;
+       margin-top: 2rem;
+       margin-right:2rem;
+       font-size: 1rem;
+       margin-bottom: 1rem;
+       animation-name: hitched;
+       animation-duration: 5s;
+       animation-delay: 4s;
+       animation-fill-mode: backwards;
+      } 
+      .google{
+        font-size:small ;  
+      }
+      .reception-detail{
+        font-family: 'Ovo';
+      max-width: 80rem;
+      text-align: left;
+      font-size: 1rem;
+      color:  #004721;
+      z-index: 100;
+      margin-bottom: 1.5rem;
+          } 
+          .rec-img{
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            position: absolute;
+            right: 0;
+            transform: translate(0%,0);
+            top: 60%; 
+           z-index: -1;
+           margin-top: 2rem;
+           width: 90%;
+           }
+           .btn:link,
+           .btn:visited{
+         /* text-transform: uppercase; */
+         background-color: #fdfdfd; 
+         text-decoration: none;
+         font-size: .5rem;
+         border-radius: 5rem; 
+         padding: 1.5rem 2rem; 
+         display:inline-block;
+         position: absolute;
+         top: 40%;
+         left: 50%;
+         transition: all .22s;
+         letter-spacing:.6rem;
+         color:  #004721;
+         }
+         .btn:hover{
+         transform:translateY(-.30rem);
+         box-shadow: 0 1rem 2rem rgb(0,0,0,.2);
+         }
+         .btn:active{
+         transform:translateY(-.10rem);
+         box-shadow: 0 .5rem 1rem rgb(0,0,0,.2);
+         }
+         .btn::after{
+         content:"";
+         display: inline-block;
+         height: 100%;
+         width: 100%;
+         border-radius: 100px;
+         background-color: #f3e7c4;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: -1;
+         transition: all .4s;
+         }
+         .btn:hover::after{
+             transform: scaleX(1.4) scaleY(1.6);
+             opacity: 0;
+         }
+                
+           .part-five{
+            position: relative;
+          height: 40rem; 
+            display: flex;
+            flex-direction: row;
+            background-image: url(images/party.jpg);
+            background-size: cover;
+            background-position: top;
+            /* margin-bottom: 10px; */
+            }
+    
+     .rsvp-section{
+      display: flex;
+      flex-direction: column;
+      /* gap: 5rem; */
+      /* min-height: 20rem;  */
+      width: 100%;
+      align-items:center;
+      justify-content: center;
+      color: white;
+      }
+      .hotel{
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+         margin-bottom: 1rem;
+        }
+        .actual-hotel{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-bottom: -3rem; 
+        margin-left: 2rem;
+        }
+        .actual-hotel a{
+          text-decoration: none;
+          font-family: 'Ovo';
+          font-size: 1rem;
+          color: white;
+          
+          }
+          .actual-hotel a:hover{
+            text-decoration: none;
+            font-family: 'Ovo';
+            font-size: 1.5rem;
+            color:  #004721;
+            }
+      
+      
+    
+    .test{
+      margin-top: 1rem;
+    /* background-color: #f6f6f6;  */
+    min-height: 10rem;
+    position: relative;
+    background-image: url(images/pinkgift3fixed.jpg);
+    background-position: left;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* z-index: -5; */
+    margin-bottom: 1.5rem;
+   margin-right: 1rem;  
+  }
+  
+    .btn:link,
+    .btn:visited{
+  /* text-transform: uppercase; */
+  background-color: #fdfdfd; 
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 1rem; 
+  padding: .5rem .5rem; 
+  display:inline-block;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transition: all .22s;
+  letter-spacing:.6rem;
+  color:  #004721;
+  }
+  .btn:hover{
+  transform:translateY(-.30rem);
+  box-shadow: 0 1rem 2rem rgb(0,0,0,.2);
+  }
+  .btn:active{
+  transform:translateY(-.10rem);
+  box-shadow: 0 .5rem 1rem rgb(0,0,0,.2);
+  }
+  .btn::after{
+  content:"";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  background-color: #f3e7c4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+  }
+  .btn:hover::after{
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+  }
+  
+  /* .rsvp-section{
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    
+    }  */
+  
+  
+  }
 
-@media only screen and  (max-width: 425px){
+@media only screen and  (maxc-width: 425px){
   .main-nav{
   position: absolute; 
   top: 4%;
