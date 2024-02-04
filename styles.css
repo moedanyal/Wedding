@@ -370,6 +370,7 @@ animation-name: hitched;
 animation-duration: 5s;
 animation-delay: 4s;
 animation-fill-mode: backwards;
+margin-bottom: 2rem;
 }
 .google a{
 text-decoration: none;
@@ -434,6 +435,7 @@ animation-name: hitched;
 animation-duration: 5s;
 animation-delay: 4s;
 animation-fill-mode: backwards;
+margin-bottom: 2rem;
     } 
    
    .wedding-detail{
@@ -499,6 +501,7 @@ padding-bottom: 3rem;
      animation-duration: 5s;
      animation-delay: 4s;
      animation-fill-mode: backwards;
+     margin-bottom: 2rem;
     } 
     .google{
       font-size:small ;  
