@@ -41,45 +41,27 @@ left: 2%;
 }
 .main-nav a:hover {
 color: rgb(255, 255, 255);
-/* border-radius: 30px;
-padding-right: 50px;
-padding-left: 50px;  */
 }
 .main-nav li{
  margin: .2rem; 
 color: rgb(210, 8, 8); 
-/* background-color: rgba(208, 230, 14, 0.405); */
-border-radius: 1.5rem;
 padding: .2rem;
 text-align: center;
 list-style: none;
 font-size: 1.5rem;
 font-weight: 400;
-/* float: right; */
 }
-/* .sub-list {
-display:none;
-}
-.sub-list li{
-list-style: none;
-
-}
-.main-nav:hover .sub-list{
-display: block;
-margin-left: 30px;
-} */
 .opacity{
 opacity: 1;
 }
 .main-heading{
-  font-family: Pinyon Script;
-/* background-color: rgba(222, 218, 154, 0.422); */
+font-family: Pinyon Script;
 display: flex;
 flex-direction: column;
 width: 100%;
 height: 40rem;
 position: absolute;
- top: 50%; 
+top: 50%; 
 transform: translate(0%,-50%);
 align-items: center;
 text-align: center;
@@ -87,8 +69,6 @@ justify-content: center;
 color:  #004721;
 font-size: 4.5rem;
 letter-spacing: 1.2rem;
-
-
 }
 .slide-left{
     animation-name: names;
@@ -122,13 +102,12 @@ transform: translateX(0);
 
 width: 100%;
 /* background-color: #566e2d; */
-height: 30rem;
+height: 25rem;
 padding: 3rem;
 background-image: url(images/rings3.jpg);
 background-size: cover;
 background-position: left;
 background-repeat: no-repeat;
-
 }
 @keyframes saidyes{
     0%{
@@ -143,7 +122,7 @@ background-repeat: no-repeat;
 .heading-two{
   margin-top: 3.5rem;
 letter-spacing: 2.5rem;
-margin-bottom: 7rem;
+margin-bottom: 5rem;
 font-size: 3.5rem;
 font-weight: 200;
 color:  #004721;
@@ -153,7 +132,7 @@ animation-name: saidyes;
 animation-duration: 8s;
 }
 .accept{
-/* max-width: 100rem; */
+max-width: 80rem; 
 margin: auto;
 text-align: center;
 font-size: 1.5rem;
@@ -184,12 +163,10 @@ font-family: Ovo;
     top: 0;
     width: 100%;
     height: 50rem;
-  
     display: flex;
     align-items: center;
     justify-content: center;
-  
-    /* THIS creates the animation! */
+      /* THIS creates the animation! */
     transition: transform 1s;
   }
   
@@ -205,7 +182,7 @@ font-family: Ovo;
     top: 50%;
     z-index: 10;
       border: none;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(214, 209, 209, 0.7);
     font-family: inherit;
     color: #333;
     border-radius: 50%;
@@ -353,7 +330,7 @@ transition: all .4s;
 display: flex;
 flex-direction: column;
 position: relative;
-width:70%;
+width:50%;
 padding-left: 3rem;
 margin: 2rem auto; 
 background-color: #fffee0; 
@@ -398,7 +375,7 @@ color: rgb(83,104,34);
 }
  .mehndi-detail{
  font-family: 'Ovo';  
-max-width: 80rem;
+max-width: 50rem;
 text-align: left;
 font-size: 1.5 rem;
 color:  #004721;
@@ -421,7 +398,7 @@ margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
   position: relative;
-  width:70%;
+  width:50%;
   padding-left: 3rem;
   margin: 2rem auto;
   background-color: #fffee0; 
@@ -457,7 +434,7 @@ animation-fill-mode: backwards;
    
    .wedding-detail{
       font-family: 'Ovo';
-    max-width: 40rem;
+    max-width: 35rem;
     text-align: right;
     font-size: 1rem;
     color:  #004721;
@@ -485,7 +462,7 @@ animation-fill-mode: backwards;
   display: flex;
   flex-direction: column;
   position: relative;
-  width:70%;
+  width:50%;
   padding-left: 3rem;
   margin: 2rem auto;
   background-color: #fffee0; 
@@ -544,22 +521,40 @@ animation-fill-mode: backwards;
   .part-five{
 display: flex;
 flex-direction: row;
-background-color: #666;
 background-image: url(images/party.jpg);
 background-size: cover;
 background-position: top;
 /* margin-bottom: 10px; */
 }
-.rsvp-section{
+ .rsvp-section{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 gap: 5rem;
-min-height: 40rem;
+min-height: 20rem;
 width: 100%;
 align-items:center;
 justify-content: center;
 color: white;
 
+} 
+.hotel{
+display: flex;
+flex-direction: column;
+font-size: 2.5rem;
+margin-top: -2.5rem;
+}
+.actual-hotel{
+display: flex;
+flex-direction: row;
+position: absolute;
+margin-top: 16rem;
+gap: 2rem;
+}
+.actual-hotel a{
+text-decoration: none;
+font-family: 'Ovo';
+font-size: 1.5rem;
+color: white;
 }
 .hotels{
 width: 100%;
@@ -718,6 +713,17 @@ font-size: 1.5rem;
     right: 0%;
     z-index: -1;
    }
+   .rsvp-section{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    min-height: 25rem;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    
+    }
    .test{
     margin-top: 1rem;
   /* background-color: #f6f6f6;  */
@@ -731,8 +737,86 @@ font-size: 1.5rem;
   margin-bottom: 1.5rem;
 margin-right: 1rem;  
 }
+.btn:link,
+  .btn:visited{
+/* text-transform: uppercase; */
+background-color: #fdfdfd; 
+text-decoration: none;
+font-size: 1.5rem;
+border-radius: 1rem; 
+padding: .5rem .5rem; 
+display:inline-block;
+position: absolute;
+top: 40%;
+left: 40%;
+transition: all .22s;
+letter-spacing:.6rem;
+color:  #004721;
+}
+.btn:hover{
+transform:translateY(-.30rem);
+box-shadow: 0 1rem 2rem rgb(0,0,0,.2);
+}
+.btn:active{
+transform:translateY(-.10rem);
+box-shadow: 0 .5rem 1rem rgb(0,0,0,.2);
+}
+.btn::after{
+content:"";
+display: inline-block;
+height: 100%;
+width: 100%;
+border-radius: 100px;
+background-color: #f3e7c4;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all .4s;
+}
+.btn:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+.rsvp-section{
+  display: flex;
+  flex-direction: column;
+  min-height: 20rem;
+  width: 100%;
+  align-items:center;
+  justify-content: center;
+  color: white;
+  
+  } 
+.hotel{
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  margin-top: -2.5rem; 
+
+  }
+  .actual-hotel{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 16rem;
+  gap: 2rem;
+  font-size: .5rem;
+  }
+
 }
 @media only screen and  (max-width: 900px){
+  .rsvp-section{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    min-height: 20rem;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    
+    }
   .test{
     margin-top: 1rem;
   /* background-color: #f6f6f6;  */
@@ -789,7 +873,31 @@ transition: all .4s;
     opacity: 0;
 }
 
+.rsvp-section{
+  display: flex;
+  flex-direction: column;
+  min-height: 20rem;
+  width: 100%;
+  align-items:center;
+  justify-content: center;
+  color: white;
+  
+  } 
+.hotel{
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  margin-top: -2.5rem; 
 
+  }
+  .actual-hotel{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 16rem;
+  gap: 2rem;
+  font-size: .5rem;
+  }
 
 
 
