@@ -105,11 +105,11 @@ width: 100%;
 /* background-color: #566e2d; */
 height: 16rem;
 padding: 3rem;
-background-image: url(images/rings3.jpg);
+background-image: url(images/rings3cut.jpg);
 background-size: cover;
-background-position: left;
+ background-position:right ; 
 background-repeat: no-repeat;
-background-position-y:-32rem  
+/* background-position-y:-32rem   */
 }
 @keyframes saidyes{
     0%{
@@ -137,7 +137,7 @@ animation-duration: 8s;
 max-width: 80rem; 
 margin: auto;
 text-align: center;
-font-size: 1.3rem;
+font-size: 1.5rem;
 color:  #004721;
 filter: drop-shadow(.2rem,.2rem gray);
 }
