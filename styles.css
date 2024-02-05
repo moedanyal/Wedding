@@ -333,14 +333,17 @@ flex-direction: column;
 position: relative;
 width:90%;
 padding-left: 3rem;
-margin: 2rem auto; 
+margin: 2rem auto;  
 background-color: #fffee0; 
-max-height: 30rem;
+min-height:28rem;
 z-index: 100;
 filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.175));
 padding-top: 3rem;
 padding-bottom: 3rem;
 
+}
+.mehndi{
+margin-top: -2rem;
 }
 .mehndi-invite{
 font-family: Pinyon script;  
@@ -351,11 +354,15 @@ margin-top: .2rem;
 letter-spacing: .6rem;
 font-weight: 400;
 margin-bottom: 2rem;
+
 }
 .sub-head{
+margin-top: -2.5rem;
+margin-bottom: 1rem;
 font-family: 'Ovo';
 font-size: 1.5rem;
-
+color:  #004721;
+margin-left: .3rem;
 }
 
 .mehndi-list li{
@@ -363,7 +370,7 @@ font-size: 1.5rem;
  font-family: 'Ovo';
 list-style: none;
 text-align: left;
-margin-top: .5rem;
+margin-top: 1.5rem;
 margin-right:2rem;
 font-size: 1.5rem;
 margin-bottom: 1rem;
@@ -384,7 +391,7 @@ text-align: left;
 font-size: 1.5rem;
 color:  #004721;
 z-index: 100;
-
+margin-top: 2rem;
 } 
 .meh-img{
   display: flex;
@@ -403,18 +410,18 @@ z-index: 100;
   flex-direction: column;
   position: relative;
   width:90%;
-  padding-left: 3rem;
+  /* padding-left: 3rem; */
   margin: 2rem auto;
   background-color: #fffee0; 
- max-height: 36rem;
+ min-height: 28rem;
  z-index: 100;
  filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
- padding-top: 3rem;
-padding-bottom: 3rem;
+ /* padding-top: 3rem; */
+/* padding-bottom: 3rem; */
     }
     .wedding-invite{
-      font-family: 'Pinyon Script', cursive; 
-      color:  #004721;
+    font-family: 'Pinyon Script', cursive; 
+    color:  #004721;
     font-size: 3rem;
     text-align: right;
     margin-top: .5rem;
@@ -422,21 +429,35 @@ padding-bottom: 3rem;
     font-weight: 400;
      padding-right: 1.5rem; 
     }
-     
+    .wedding{
+      margin-top: .5rem;
+      }
+    .sub-head1{
+      position: absolute;
+      right: 2rem;
+      top: 6.5rem;
+      text-align: right;
+     margin-top: -2.5rem;
+      margin-bottom: 1rem;
+      font-family: 'Ovo';
+      font-size: 1.5rem;
+      color:  #004721;
+      
+      }
     .wedding-list li{
       color:  #004721; 
     font-family: 'Ovo';
 list-style: none;
 text-align: right;
-margin-top: 0px;
+margin-top: 2rem;
 margin-right:2rem;
 font-size: 1.5rem;
-margin-bottom: 10px;
+/* margin-bottom: 10px; */
 animation-name: hitched;
 animation-duration: 5s;
 animation-delay: 4s;
 animation-fill-mode: backwards;
-margin-bottom: 2rem;
+margin-bottom: .5rem;
     } 
    
    .wedding-detail{
@@ -449,7 +470,7 @@ margin-bottom: 2rem;
     align-content:end;
     float: right;    
     padding-right: 2rem;
-    margin-bottom: -1.5rem;
+    /* margin-bottom: -2.5rem; */
     z-index: 10;
     }
     .wed-img{
@@ -473,10 +494,10 @@ margin-bottom: 2rem;
   padding-left: 3rem;
   margin: 2rem auto;
   background-color: #fffee0; 
-  height: auto;
+  min-height: 28rem;
   filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
-  padding-top: 3rem;
-padding-bottom: 3rem;
+  /* padding-top: 3rem;
+  padding-bottom: 3rem; */
  z-index: 100;
     }
     .reception-invite{
@@ -484,7 +505,7 @@ padding-bottom: 3rem;
       color:  #004721;
     font-size: 3rem;
     text-align: left;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     letter-spacing: 1rem;
     font-weight: 400;
     }
