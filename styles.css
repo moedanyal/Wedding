@@ -331,11 +331,11 @@ transition: all .4s;
 display: flex;
 flex-direction: column;
 position: relative;
-width:55%;
+width:75%;
 padding-left: 3rem;
 margin: 2rem auto; 
 background-color: #fffee0; 
-height: auto;
+max-height: 30rem;
 z-index: 100;
 filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.175));
 padding-top: 3rem;
@@ -347,14 +347,14 @@ font-family: Pinyon script;
 color:  #004721;
 font-size: 3rem;
 text-align: left;
-margin-top: 1.5rem;
+margin-top: .2rem;
 letter-spacing: .6rem;
 font-weight: 400;
 margin-bottom: 2rem;
 }
 .sub-head{
 font-family: 'Ovo';
-font-size: 1rem;
+font-size: 1.5rem;
 
 }
 
@@ -363,15 +363,15 @@ font-size: 1rem;
  font-family: 'Ovo';
 list-style: none;
 text-align: left;
-margin-top: 1rem;
+margin-top: .5rem;
 margin-right:2rem;
-font-size: 1rem;
+font-size: 1.5rem;
 margin-bottom: 1rem;
 animation-name: hitched;
 animation-duration: 5s;
 animation-delay: 4s;
 animation-fill-mode: backwards;
-margin-bottom: 2rem;
+margin-bottom: -.5rem;
 }
 .google a{
 text-decoration: none;
@@ -381,10 +381,10 @@ color: rgb(83,104,34);
  font-family: 'Ovo';  
 max-width: 50rem;
 text-align: left;
-font-size: 1.5 rem;
+font-size: 1.5rem;
 color:  #004721;
 z-index: 100;
-margin-bottom: 1.5rem;
+
 } 
 .meh-img{
   display: flex;
