@@ -560,6 +560,17 @@ background-size: cover;
 background-position: top;
 /* margin-bottom: 10px; */
 }
+.rsvp-by{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  font-family: 'Ovo';
+  font-size: 1.3rem;
+  color: white;
+  left: 37%;
+  transform: translate(50%,0);
+  padding-top: .5rem;
+}
  .rsvp-section{
 display: flex;
 flex-direction: column;
