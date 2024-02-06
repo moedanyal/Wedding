@@ -777,16 +777,17 @@ font-size: 1.5rem;
     transform: translate(0,-50%);
     top: 50%;
    z-index: -1;
+   width: 40%;
     } 
   
   .wed-img{
     display: flex;
     flex-direction: column;
-    width: 50%;  
+    width: 40%;  
      height: 30%;
     position: absolute;
     transform: translate(0,-50%);
-    top: 35%;
+    top: 28%;
     left: 0%;
     z-index: -1;
    
@@ -795,7 +796,7 @@ font-size: 1.5rem;
    .rec-img{
     display: flex;
     flex-direction: column;
-    width: 50%;  
+    width: 40%;  
     align-items: end;
     position: absolute;
     transform: translate(0,-50%);
@@ -813,6 +814,17 @@ font-size: 1.5rem;
     justify-content: center;
     color: white;
     
+    }
+    .rsvp-by{
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      font-family: 'Ovo';
+      font-size: 1.3rem;
+      color: white;
+      left: 32%;
+      transform: translate(50%,0);
+      padding-top: .5rem;
     }
    .test{
     margin-top: 1rem;
