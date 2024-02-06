@@ -284,6 +284,7 @@ font-family: Ovo;
   }
   /* Slide show ends here*/
 
+
  .btn:link,
   .btn:visited{
 /* text-transform: uppercase; */
@@ -431,6 +432,7 @@ margin-top: 2rem;
     }
     .wedding{
       margin-top: .5rem;
+      padding-bottom: 1.5rem;
       }
     .sub-head1{
       position: absolute;
@@ -438,15 +440,15 @@ margin-top: 2rem;
       top: 6.5rem;
       text-align: right;
      margin-top: -2.5rem;
-      margin-bottom: 1rem;
+      /* margin-bottom: 2rem; */
       font-family: 'Ovo';
       font-size: 1.5rem;
       color:  #004721;
+            }
       
-      }
-    .wedding-list li{
-      color:  #004721; 
-    font-family: 'Ovo';
+.wedding-list li{
+color:  #004721; 
+font-family: 'Ovo';
 list-style: none;
 text-align: right;
 margin-top: 1.6rem;
@@ -470,6 +472,7 @@ margin-bottom: .5rem;
     align-content:end;
     float: right;    
     padding-right: 2rem;
+    padding-top: .5rem;
     /* margin-bottom: -2.5rem; */
     z-index: 10;
     }
@@ -594,7 +597,45 @@ color: white;
   font-size: 1.5rem;
   color:  #004721;
   }
-.hotels{
+  .part-six{
+    margin-top: 1.5rem;
+ display: flex;
+flex-direction: row;
+width: 100%;
+ background-image: url(images/wed-trad.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 16rem;
+  position: relative;
+  }
+  .wed-trad{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    /* min-height: 20rem; */
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    letter-spacing: .5rem;
+}
+.wed-trad a{
+  text-decoration: none;
+  color:  #004721;
+  font-size:1.5rem;
+  font-weight: 400;
+}
+.lets-see{
+  display: flex;
+  background-color:rgb(255, 255, 255); 
+  padding: 1.5rem;
+  border-radius: 5rem;
+  color: black;
+  
+}
+
+  
+/* .hotels{
 width: 100%;
 min-height:20rem;
 display: flex;
@@ -622,13 +663,13 @@ margin: 1.5rem;
 margin-top: 2rem;
 text-align: center;
 font-size: 1rem;
-font-weight: bolder;
+font-weight: bolder; */
 /* background-color: #b9b9b9; */
-}
+/* }
 .actual-hotels a{
   text-decoration: none;
-  color:  #004721;
-}
+  color:  #004721; */
+/* } */
 .test{
   margin-top: 1.5rem;
 /* background-color: #f6f6f6;  */
