@@ -295,7 +295,7 @@ padding: 1.5rem 4rem;
 display:inline-block;
 position: absolute;
 top: 40%;
-left: 40%;
+left: 38%;
 transition: all .22s;
 letter-spacing:.6rem;
 color:  #004721;
@@ -641,13 +641,13 @@ background-repeat: no-repeat;
 /* z-index: -5; */
 margin-bottom: 1.5rem;
 }
-.mehndi-rsvp a{
+/* .mehndi-rsvp a{
 text-decoration: none;
 color: rgb(78, 80, 78);
 font-size: large;
 font-weight: bold;
-}      
-.wedding-rsvp{
+}       */
+ .wedding-rsvp{
     display: flex;
     background-color:rgb(255, 255, 255); 
     padding: 1.5rem;
@@ -659,20 +659,20 @@ font-weight: bold;
     color:  #004721;
     font-size: xx-large;
     font-weight: 400;
-  }         
-/* .reception-rsvp{
+  }          
+ .reception-rsvp{
     display: flex;
     background-color:rgb(255, 255, 255); 
     padding: 15px;
     border-radius: 50px;
     color: black;
-  } */
-  .reception-rsvp a{
+  } 
+   .reception-rsvp a{
     text-decoration: none;
     color: rgb(9, 225, 9);
     font-size: large;
     font-weight: 400;
-  }                   
+  }                    
   .main-footer{
 max-height: 15rem;
 width: 100%;
