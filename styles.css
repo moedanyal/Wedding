@@ -1337,7 +1337,7 @@ margin-bottom: 4rem;
    font-family: 'Ovo';  
   max-width: 50rem;
   text-align: left;
-  font-size: 1.5 rem;
+  font-size: 1rem;
   color:  #004721;
   z-index: 100;
   /* margin-bottom: 1.5rem; */
@@ -1347,7 +1347,7 @@ margin-bottom: 4rem;
     flex-direction: row;
     align-items: end;
     position: absolute;
-    right: 0;
+    right: 1.5rem;
     transform: translate(0%,0);
     top: 60%; 
    z-index: -1;
@@ -1370,6 +1370,17 @@ margin-bottom: 4rem;
  padding-top: 3rem;
 padding-bottom: 3rem;
     }
+    .sub-head1{
+      position: absolute;
+      right: 17rem;
+      top: 7.5rem;
+      text-align: right;
+     margin-top: .95rem;
+      /* margin-bottom: 2rem; */
+      font-family: 'Ovo';
+      font-size: 1rem;
+      color:  #004721;
+            }
     .wedding-invite{
       font-family: 'Pinyon Script', cursive; 
       color:  #004721;
@@ -1415,7 +1426,7 @@ animation-fill-mode: backwards;
       align-items: end;
       position: absolute;
       right: 0;
-      transform: translate(15%,0);
+      transform: translate(5%,0);
       top: 60%; 
      z-index: -1;
      margin-top: 2rem;
@@ -1480,7 +1491,7 @@ padding-bottom: 3rem;
           flex-direction: row;
           align-items: end;
           position: absolute;
-          right: 0;
+          right: 1.5rem;
           transform: translate(0%,0);
           top: 60%; 
          z-index: -1;
@@ -1531,13 +1542,24 @@ padding-bottom: 3rem;
               
          .part-five{
           position: relative;
-        height: 40rem; 
+        height: 22rem; 
           display: flex;
           flex-direction: row;
           background-image: url(images/party.jpg);
           background-size: cover;
           background-position: top;
           /* margin-bottom: 10px; */
+          }
+          .rsvp-by{
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            font-family: 'Ovo';
+            font-size: 1.3rem;
+            color: white;
+            left: 10%;
+            transform: translate(50%,0);
+            padding-top: .5rem;
           }
   
    .rsvp-section{
@@ -1582,7 +1604,7 @@ padding-bottom: 3rem;
   .test{
     margin-top: 1rem;
   /* background-color: #f6f6f6;  */
-  min-height: 10rem;
+  min-height: 15rem;
   position: relative;
   background-image: url(images/pinkgift3fixed.jpg);
   background-position: left;
@@ -2463,18 +2485,18 @@ transition: all .4s;
   /* Slide show ends here*/
   
   .part-two{
-    min-height: 50rem;
+    min-height: 45rem;
     display: flex;
     flex-direction: column;
     position: relative;
     width:80%;
-    padding-left: 3rem;
+    padding-left: 1rem;
     margin: 1rem auto; 
     background-color: #fffee0; 
     z-index: 100;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.175));
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     
     }
     .mehndi-invite{
@@ -2518,34 +2540,35 @@ transition: all .4s;
     font-size: 1 rem;
     color:  #004721;
     z-index: 100;
-    /* margin-bottom: 1.5rem; */
-    } 
+    /* margin-bottom: 3.5rem;  */
+    padding-right: 1rem;
+  } 
     .meh-img{
       display: flex;
       flex-direction: row;
       align-items: end;
       position: absolute;
       right: -1.5rem;
-      transform: translate(0,0);
-      top: 65%; 
+      transform: translate(-25%,0);
+      top: 62%; 
      z-index: -1;
      margin-top: 2rem;
-     width: 90%;
+     width: 80%;
       } 
       /*    The Wedding     */
   .part-three{
-    min-height: 54rem;
+    min-height: 45rem;
     display: flex;
     flex-direction: column;
     position: relative;
     width:80%;
-    padding-left: 3rem;
+    padding-left: 1rem;
     margin: 2rem auto;
     background-color: #fffee0; 
    height: auto;
    z-index: 100;
    filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
-   padding-top: 3rem;
+   padding-top: .5rem;
   padding-bottom: 3rem;
       }
       .wedding-invite{
@@ -2557,7 +2580,17 @@ transition: all .4s;
       letter-spacing: .5rem;
       font-weight: 400;
        padding-right: 1.5rem; 
-      }
+      }.sub-head1{
+        position: absolute;
+        right: 10rem;
+        top: 7.8rem;
+        text-align: right;
+       margin-top: -2.5rem;
+        /* margin-bottom: 2rem; */
+        font-family: 'Ovo';
+        font-size: 1rem;
+        color:  #004721;
+              }
        
       .wedding-list li{
         color:  #004721; 
@@ -2593,28 +2626,28 @@ transition: all .4s;
         align-items: end;
         position: absolute;
         right: 0;
-        transform: translate(15%,0);
-        top: 60%; 
+        transform: translate(11%,0);
+        top: 55%; 
        z-index: -1;
        margin-top: 2rem;
-       width: 90%;
+       width: 80%;
        
        } 
   
       /*    The Reception     */
   .part-four{
-    min-height: 50rem;
+    min-height: 45rem;
     display: flex;
     flex-direction: column;
     position: relative;
     width:80%;
-    padding-left: 3rem;
+    padding-left: 1rem;
     margin: 2rem auto;
     background-color: #fffee0; 
     height: auto;
     filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
     padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
    z-index: 100;
       }
       .reception-invite{
@@ -2659,11 +2692,11 @@ transition: all .4s;
             align-items: end;
             position: absolute;
             right: -1.5rem;
-            transform: translate(0%,0);
-            top: 60%; 
+            transform: translate(-22%,0);
+            top: 65%; 
            z-index: -1;
            margin-top: 2rem;
-           width: 90%;
+           width: 80%;
            }
            .btn:link,
            .btn:visited{
@@ -2727,6 +2760,17 @@ transition: all .4s;
       align-items:center;
       justify-content: center;
       color: white;
+      }
+      .rsvp-by{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        font-family: 'Ovo';
+        font-size: 1.3rem;
+        color: white;
+        left: 34%;
+        transform: translate(-20%,0);
+        padding-top: .5rem;
       }
       .hotel{
         display: flex;
@@ -2812,6 +2856,34 @@ transition: all .4s;
       transform: scaleX(1.4) scaleY(1.6);
       opacity: 0;
   }
+  .part-six{
+    margin-top: 1.5rem;
+ display: flex;
+flex-direction: row;
+width: 100%;
+ background-image: url(images/wed-trad.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 16rem;
+  position: relative;
+  }
+  .wed-trad{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    /* min-height: 20rem; */
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    letter-spacing: .5rem;
+}
+.wed-trad a{
+  text-decoration: none;
+  color:  #004721;
+  font-size:.8rem;
+  font-weight: 400;
+}
   
   /* .rsvp-section{
     display: flex;
