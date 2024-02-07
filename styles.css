@@ -2293,6 +2293,7 @@ transition: all .4s;
   }
   
 @media only screen and  (max-width:457px){
+
   .meh-img{
     display: flex;
     flex-direction: row;
@@ -2304,76 +2305,7 @@ transition: all .4s;
    z-index: -1;
    margin-top: 2rem;
    width: 90%;
-    } .part-three{
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      width:90%;
-      /* padding-left: 3rem; */
-      margin: 2rem auto;
-      background-color: #fffee0; 
-     min-height: 28rem;
-     z-index: 100;
-     filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.175));
-     /* padding-top: 3rem; */
-    /* padding-bottom: 3rem; */
-        }
-        .wedding-invite{
-        font-family: 'Pinyon Script', cursive; 
-        color:  #004721;
-        font-size: 3rem;
-        text-align: right;
-        margin-top: .5rem;
-        letter-spacing: .5rem;
-        font-weight: 400;
-         padding-right: 1.5rem; 
-        }
-        .wedding{
-          margin-top: .5rem;
-          padding-bottom: 1.5rem;
-          }
-        .sub-head1{
-          position: absolute;
-          right: 2rem;
-          top: 6.5rem;
-          text-align: right;
-         margin-top: -2.5rem;
-          /* margin-bottom: 2rem; */
-          font-family: 'Ovo';
-          font-size: 1.5rem;
-          color:  #004721;
-                }
-          
-    .wedding-list li{
-    color:  #004721; 
-    font-family: 'Ovo';
-    list-style: none;
-    text-align: right;
-    margin-top: 1.6rem;
-    margin-right:2rem;
-    font-size: 1.5rem;
-    /* margin-bottom: 10px; */
-    animation-name: hitched;
-    animation-duration: 5s;
-    animation-delay: 4s;
-    animation-fill-mode: backwards;
-    margin-bottom: .5rem;
-        } 
-       
-       .wedding-detail{
-          font-family: 'Ovo';
-        max-width: 53rem;
-        text-align: right;
-        font-size: 1.4rem;
-        color:  #004721;
-        /* margin: auto;  */
-        align-content:end;
-        float: right;    
-        padding-right: 2rem;
-        padding-top: .5rem;
-        /* margin-bottom: -2.5rem; */
-        z-index: 10;
-        }
+    } 
     .wed-img{
       display: flex;
       flex-direction: row;
@@ -2416,19 +2348,20 @@ transition: all .4s;
       }
     .sub-head1{
       position: absolute;
-      right: 14.5rem;
+      right: 13.5rem;
       top: 10.5rem;
       text-align: right;
      margin-top: -2.5rem;
       /* margin-bottom: 2rem; */
       font-family: 'Ovo';
-      font-size: 1rem;
+      font-size: rem;
       color:  #004721;
             }
 
 
     
   }
+}
 
 @media only screen and  (max-width: 425px){
   .main-nav{
@@ -2750,9 +2683,10 @@ transition: all .4s;
       letter-spacing: .5rem;
       font-weight: 400;
        padding-right: 1.5rem; 
-      }.sub-head1{
+      }
+      .sub-head1{
         position: absolute;
-        right: 13rem;
+        right: 10rem;
         top: 7.8rem;
         text-align: right;
        margin-top: -2.5rem;
