@@ -2357,11 +2357,38 @@ transition: all .4s;
       font-size: rem;
       color:  #004721;
             }
-
+            .part-six{
+              margin-top: 1.5rem;
+           display: flex;
+          flex-direction: row;
+          width: 100%;
+           background-image: url(images/wed-trad.jpg);
+            background-position: top;
+            background-size: cover;
+            height: 16rem;
+            position: relative;
+            }
+            .wed-trad{
+              display: flex;
+              flex-direction: column;
+              gap: 5rem;
+              /* min-height: 20rem; */
+              width: 100%;
+              align-items:center;
+              justify-content: center;
+              color: white;
+              letter-spacing: .5rem;
+          }
+          .wed-trad a{
+            text-decoration: none;
+            color:  #004721;
+            font-size:1rem;
+            font-weight: 400;
+          }
 
     
   }
-}
+
 
 @media only screen and  (max-width: 425px){
   .main-nav{
