@@ -2348,7 +2348,7 @@ transition: all .4s;
       }
     .sub-head1{
       position: absolute;
-      right: 13.5rem;
+      right: 12rem;
       top: 10.5rem;
       text-align: right;
      margin-top: -2.5rem;
@@ -2689,7 +2689,7 @@ transition: all .4s;
         right: 10rem;
         top: 7.8rem;
         text-align: right;
-       margin-top: -2.5rem;
+        margin-top: -2.5rem;
         /* margin-bottom: 2rem; */
         font-family: 'Ovo';
         font-size: 1rem;
